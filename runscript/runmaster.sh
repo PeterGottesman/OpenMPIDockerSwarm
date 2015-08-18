@@ -50,7 +50,7 @@ echo "done."
 echo "Initializing slave containers...."
 for (( c=0; c<$NUMBER_SLAVE; c++ ))
 do
-    CORE=c%$NUMBER_CORES
+    CORE=`expr $c % $NUMBER_CORES`
     slaveid[${c}]=$(docker run -d -it -P --privileged=true --cpuset-cpus=$CORE -v /data:/data ompiswarm)
     slaveip[${c}]=`docker inspect --format '{{ .NetworkSettings.IPAddress }}' ${slaveid[${c}]}`
 done

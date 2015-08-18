@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/env python3
 
 import argparse
 from multiprocessing import cpu_count
@@ -6,7 +6,7 @@ from subprocess import check_output, CalledProcessError
 
 def call(cmd, ErrorText):
     try:
-        out = check_output(cmd, shell=True).decode('utf-8').split('\n', 1)[0]
+        out = check_output(cmd, shell=True).decode('utf-8')
     except CalledProcessError as err:
         print(ErrorText + " with code: " + str(err.returncode))
         exit(1)
@@ -23,12 +23,12 @@ def run(args):
         exit(1)
 
     print("Building image")
-    call("sudo docker build -t ompiswarm ..", "Error building dockerfile")
+    print(call("docker build -t ompiswarm ..", "Error building dockerfile"))
     print("Done")
 
     print("Initializing Master container")
-    masterid = call("sudo docker run --name master -d -it -P --privileged --cpuset-cpus=0 -v /data:/data ompiswarm", "Error creating master container")
-    masterip = call("sudo docker inspect --format '{{ .NetworkSettings.IPAddress }}' " + masterid, "Error getting master ip")
+    masterid = call("docker run --name master -d -it -P --privileged --cpuset-cpus=0 -v ~/DockerShare/data:/data ompiswarm", "Error creating master container").split('\n', 1)[0]
+    masterip = call("docker inspect --format '{{ .NetworkSettings.IPAddress }}' " + masterid, "Error getting master ip").split('\n', 1)[0]
     print("Done")
 
     print("Initializing slave containers")
@@ -36,22 +36,23 @@ def run(args):
     slaveip = []
     for slave in range(NumSlaves):
         core = slave%NumCores
-        slaveid.append(call("sudo docker run -d -it -P --privileged --cpuset-cpus=" + str(core) + " -v /data:/data ompiswarm", "Error creating slave container number " + str(slave)))
-        slaveip.append(call("sudo docker inspect --format '{{ .NetworkSettings.IPAddress }}' " + slaveid[slave], "Error getting ip for slave number " + str(slave)))
+        slaveid.append(call("docker run -d -it -P --privileged --cpuset-cpus=" + str(core) + " -v ~/DockerShare/data:/data ompiswarm", "Error creating slave container number " + str(slave)).split('\n', 1)[0])
+        slaveip.append(call("docker inspect --format '{{ .NetworkSettings.IPAddress }}' " + slaveid[slave], "Error getting ip for slave number " + str(slave)).split('\n', 1)[0])
     print("Done, " + str(len(slaveip)) + " slave initialized")
 
     print("Creating hosts ")
-    f = open("/data/hostfile", 'w')
-    f.write(masterip + "\n")
-    for ip in slaveip:
-        f.write(ip + "\n")
-    f.close()
+    #f = open("/data/hostfile", 'w')
+    #f.write(masterip + "\n")
+    #for ip in slaveip:
+    #    f.write(ip + "\n")
+    #f.close()
     print("Done")
 
-    call("xterm -e sudo docker exec -it " + masterid + " /bin/bash", "Error putting you into interactive shell with master container")
+    #call("xterm -e docker exec -it " + masterid + " /bin/bash", "Error putting you into interactive shell with master container")
+    call("docker exec -d " + masterid + " /data/run.sh", "Error running run.sh in /data, make sure it is in the folder ~/DockerShare/data")
 
-    call("sudo docker stop $(sudo docker ps -aq)", "")
-    call("sudo docker rm $(sudo docker ps -aq)", "")
+    print(call("docker stop $(sudo docker ps -aq)", ""))
+    print(call("docker rm $(sudo docker ps -aq)", ""))
 
 def main():
     parser = argparse.ArgumentParser()
