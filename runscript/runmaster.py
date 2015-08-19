@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
-from multiprocessing import cpu_count
-from subprocess import check_output, CalledProcessError
+import math
 
 def call(cmd, ErrorText):
     try:
@@ -10,53 +9,44 @@ def call(cmd, ErrorText):
     except CalledProcessError as err:
         print(ErrorText + " with code: " + str(err.returncode))
         exit(1)
-    
+
     return out
 
 def run(args):
-    NumContainers = args.NumContainers
-    NumSlaves = NumContainers - 1
-    NumCores = cpu_count()
+    NumSlaves = args.NumSlaves
+    Hosts = args.Hosts
+    NumHosts = len(Hosts.split(','))
     
-    if NumContainers <= 0:
-        print("Error: Number of Containers must be greater than 0")
+    if not (0 < NumSlaves <= 256):
+        print("Error: Number of slaves must be greater than 0 and less than 256 times the number of hosts")
         exit(1)
 
-    print("Building image")
-    print(call("docker build -t ompiswarm ..", "Error building dockerfile"))
-    print("Done")
-
-    print("Initializing Master container")
-    masterid = call("docker run --name master -d -it -P --privileged --cpuset-cpus=0 -v ~/DockerShare/data:/data ompiswarm", "Error creating master container").split('\n', 1)[0]
-    masterip = call("docker inspect --format '{{ .NetworkSettings.IPAddress }}' " + masterid, "Error getting master ip").split('\n', 1)[0]
+    print("Building Image")
+    call("pdsh -w " + Hosts + " docker build -t ompiswarm ~/OpenMPIDockerSwarm/ | uniq -u", "Error building dockerfile")
     print("Done")
 
     print("Initializing slave containers")
-    slaveid = []
-    slaveip = []
-    for slave in range(NumSlaves):
-        core = slave%NumCores
-        slaveid.append(call("docker run -d -it -P --privileged --cpuset-cpus=" + str(core) + " -v ~/DockerShare/data:/data ompiswarm", "Error creating slave container number " + str(slave)).split('\n', 1)[0])
-        slaveip.append(call("docker inspect --format '{{ .NetworkSettings.IPAddress }}' " + slaveid[slave], "Error getting ip for slave number " + str(slave)).split('\n', 1)[0])
-    print("Done, " + str(len(slaveip)) + " slave initialized")
-
-    print("Creating hosts ")
-    #f = open("/data/hostfile", 'w')
-    #f.write(masterip + "\n")
-    #for ip in slaveip:
-    #    f.write(ip + "\n")
-    #f.close()
+    slaveips = call("pdsh -w " + Hosts + " ~/OpenMPIDockerSwarm/runscript/runslave.py " + NumSlaves, "Error launching slaves")
+    if "Error" in slaveips:
+        print("Error launching slaves, dumping output:")
+        print(slaveips)
+        exit(1)
     print("Done")
 
-    #call("xterm -e docker exec -it " + masterid + " /bin/bash", "Error putting you into interactive shell with master container")
-    call("docker exec -d " + masterid + " /data/run.sh", "Error running run.sh in /data, make sure it is in the folder ~/DockerShare/data")
+    print("Creating hostfile")
+    f = open("~/DockerShare/data/hostfile", 'w')
+    f.write(slaveips)
+    f.close()
+    print("Done")
 
-    print(call("docker stop $(sudo docker ps -aq)", ""))
-    print(call("docker rm $(sudo docker ps -aq)", ""))
+    print("Starting master")
+    call("docker run --name master -h master -d --privileged --cpuset-cpus=0 -v ~/DockerShare/data:/data:z --lxc=conf=\"lxc.network.type = veth\" --lxc=conf=\"lxc.network.ipv4 = XXX\" --lxc=conf=\"lxc.network.link=dockerbridge0\" --lxc=conf=\"lxc.network.name = ethX\" --lxc=conf=\"lxc.network\" --lxc=conf=\"lxc.network.flags=up\" ompiswarm /data/run.sh", "Error launching master container, ensure run.sh is present")
+
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('NumContainers', metavar='X', type=int)
+    parser.add_argument('NumSlaves', metavar='X', type=int, help="Number of slaves to launch per host")
+    parser.add_argument('Hosts', help="Comma separated list of hostnames")
     args = parser.parse_args()
     run(args)
 
