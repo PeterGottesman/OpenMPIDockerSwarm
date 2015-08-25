@@ -14,19 +14,21 @@ def call(cmd, ErrorText):
 
 def spawn_slaves(args):
     NumSlaves = args.NumSlaves
+    NodeNum = args.NodeNum
     CoreList = call("hwloc-calc --physical --intersect PU machine:0", "Error getting list of cores, make sure hwloc is installed").split()
 
-    ip = 49
+    ip = 0 
     for slave in range(NumSlaves):
         core=CoreList[slave%len(CoreList)]
         ip += 1
-        slaveid = call("docker run --name slave"+str(slave)+" -h slave"+str(slave)+" -d --privileged --cpuset-cpus="+str(core)+" -v ~/DockerShare/data:/data:z --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 = 10.2.0." + str(ip) + "\" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth2\" --lxc-conf=\"lxc.network.flags=up\" ompiswarm", "Error launching slave container number " + str(slave))
+        slaveid = call("docker run --name slave"+str(slave)+" -h slave"+str(slave)+" -d --privileged --cpuset-cpus="+str(core)+" -v ~/DockerShare/data:/data:z --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 = 10.20." + NodeNum + "." + str(ip) + "\" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth3\" --lxc-conf=\"lxc.network.flags=up\" ompiswarm", "Error launching slave container number " + str(slave))
         slaveip = call("docker inspect --format '{{ .NetworkSettings.IPAddress }}' " + slaveid, "Error getting slave ip for slave number " + str(slave))
         print(slaveip, "#", slaveid)
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('NumSlaves', metavar='X', type=int)
+    parser.add_argument('NodeNum', metavar='Y')
     args = parser.parse_args()
     spawn_slaves(args)
 
