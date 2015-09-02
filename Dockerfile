@@ -27,7 +27,7 @@ RUN sed -i "1iexport LD_LIBRARY_PATH=/root/.openmpi/lib" /root/.bashrc
 # Configure SSH service.
 WORKDIR /root/
 EXPOSE 22
-CMD ["/usr/sbin/sshd"]"
+CMD ["/usr/sbin/sshd"]
 
 COPY ssh /root/.ssh
 

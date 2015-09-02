@@ -24,13 +24,15 @@ def run(args):
         exit(1)
 
     print("Building Image")
-    call("pdsh -w " + Hosts + " docker build -t ompiswarm ~/OpenMPIDockerSwarm/ | uniq -u", "Error building dockerfile")
+    call("pdsh -w " + Hosts + " docker run --rm -t petergottesman/ompiswarm ", "Error building dockerfile")
     print("Done")
 
     print("Initializing slave containers")
     slaveips = []
-    for host in Hosts:
-        slaveips.append(call("pdsh -w " + host + " " + str(Hosts.index(host)+1) + " ~/OpenMPIDockerSwarm/runscript/runslave.py " + str(NumSlaves), "Error launching slaves").split())
+    for host in Hosts.split(','):
+        test = call("pdsh -N -w " + host + " ~/OpenMPIDockerSwarm/runscript/runslave.py " + str(NumSlaves) + " " + str(Hosts.index(host)+1), "Error launching slaves").split('\n')
+        print(test)
+
     if "Error" in slaveips:
         print("Error launching slaves, dumping output:")
         print(slaveips)
@@ -39,12 +41,13 @@ def run(args):
 
     print("Creating hostfile")
     f = open(os.getenv('HOME')+"/DockerShare/data/hostfile", 'w')
-    f.write(slaveips)
+    for ip in slaveips:
+        f.write(ip + '\n')
     f.close()
     print("Done")
 
     print("Starting master")
-    print(call("docker run --name master -h master -dt --privileged --cpuset-cpus=0 -v ~/DockerShare/data:/data --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 = 10.20.1.0\" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth3\" --lxc-conf=\"lxc.network.flags=up\" ompiswarm /bin/bash /data/run.sh", "Error launching master container, ensure run.sh is present"))
+    print(call("docker run --name master -h master -dit --privileged --cpuset-cpus=0 -v ~/DockerShare/data:/data --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 = 10.20.1.0\" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth3\" --lxc-conf=\"lxc.network.flags=up\" petergottesman/ompiswarm /bin/bash ", "Error launching master container, ensure run.sh is present"))
 
 
 
