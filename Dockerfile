@@ -14,7 +14,6 @@ RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so
 
 # Copy and extract OpenMPI source
 COPY source/.openmpi /root/
-RUN tar -xf /root/ompi1.8.7installed.tar.bz2 -C /root/
 
 #add paths to libraries and binaries for ompi
 ENV LD_LIBRARY_PATH /root/.openmpi/lib
