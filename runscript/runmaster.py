@@ -30,7 +30,7 @@ def run(args):
     print("Initializing slave containers")
     slaveips = []
     for host in Hosts.split(','):
-        slave_ip = call("pdsh -N -w " + host + " ~/OpenMPIDockerSwarm/runscript/runslave.py " + str(NumSlaves) + " " + str(Hosts.index(host)+1), "Error launching slaves").split('\n')
+        slave_ip = call("pdsh -N -w " + host + " ~/OpenMPIDockerSwarm/runscript/runslave.py " + str(NumSlaves) + " " + host[-2:], "Error launching slaves").split('\n')
         slaveips.extend(slave_ip)
         print(slave_ip)
 
@@ -48,7 +48,7 @@ def run(args):
     print("Done")
 
     print("Starting master")
-    print(call("docker run --name master -h master -dit --privileged --cpuset-cpus=0 -v ~/DockerShare/data:/data --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 = 10.20.1.0\" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth3\" --lxc-conf=\"lxc.network.flags=up\" petergottesman/ompiswarm /bin/bash ", "Error launching master container, ensure run.sh is present"))
+    print(call("docker run --name master -h master -dit --privileged --cpuset-cpus=0 -v ~/DockerShare/data:/data --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 = 10.20.49.1/16\" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth3\" --lxc-conf=\"lxc.network.flags=up\" petergottesman/ompiswarm /bin/bash ", "Error launching master container, ensure run.sh is present"))
 
 
 

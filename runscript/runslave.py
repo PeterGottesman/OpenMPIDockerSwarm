@@ -21,9 +21,9 @@ def spawn_slaves(args):
     for slave in range(NumSlaves):
         core=CoreList[slave%len(CoreList)]
         ip += 1
-        slaveid = call("docker run --name slave"+str(slave)+" -h slave"+str(slave)+" -d --privileged --cpuset-cpus="+str(core)+" -v ~/DockerShare/data:/data:z --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 = 10.20." + NodeNum + "." + str(ip) + "\" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth3\" --lxc-conf=\"lxc.network.flags=up\" petergottesman/ompiswarm", "Error launching slave container number " + str(slave))
-        slaveip = call("docker inspect --format '{{ .NetworkSettings.IPAddress }}' " + slaveid, "Error getting slave ip for slave number " + str(slave))
-        print(slaveip.rstrip('\n'), "#", slaveid)
+        slaveip = "10.20." + NodeNum + "." + str(ip)
+        slaveid = call("docker run --name slave"+str(slave)+" -h slave"+str(slave)+" -dit --privileged --cpuset-cpus="+str(core)+" -v ~/DockerShare/data:/data:z --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 =" + slaveip + "/16 \" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth3\" --lxc-conf=\"lxc.network.flags=up\" petergottesman/ompiswarm /bin/bash", "Error launching slave container number " + str(slave))
+        print(slaveip, "#", slaveid)
 
 def main():
     parser = argparse.ArgumentParser()
