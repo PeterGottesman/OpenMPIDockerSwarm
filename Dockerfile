@@ -13,7 +13,7 @@ RUN sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/ss
 RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd
 
 # Copy and extract OpenMPI source
-COPY source/.openmpi /root/
+COPY source/.openmpi /root/.openmpi
 
 #add paths to libraries and binaries for ompi
 ENV LD_LIBRARY_PATH /root/.openmpi/lib

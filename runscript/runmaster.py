@@ -30,8 +30,9 @@ def run(args):
     print("Initializing slave containers")
     slaveips = []
     for host in Hosts.split(','):
-        test = call("pdsh -N -w " + host + " ~/OpenMPIDockerSwarm/runscript/runslave.py " + str(NumSlaves) + " " + str(Hosts.index(host)+1), "Error launching slaves").split('\n')
-        print(test)
+        slave_ip = call("pdsh -N -w " + host + " ~/OpenMPIDockerSwarm/runscript/runslave.py " + str(NumSlaves) + " " + str(Hosts.index(host)+1), "Error launching slaves").split('\n')
+        slaveips.extend(slave_ip)
+        print(slave_ip)
 
     if "Error" in slaveips:
         print("Error launching slaves, dumping output:")
