@@ -16,7 +16,8 @@ def call(cmd, ErrorText):
 
 def run(args):
     NumSlaves = args.NumSlaves
-    Hosts = args.Hosts
+    f = open(args.Hosts, 'r')
+    Hosts = f.readline().rstrip('\n')
     NumHosts = len(Hosts.split(','))
     
     if not (0 < NumSlaves <= 256):
