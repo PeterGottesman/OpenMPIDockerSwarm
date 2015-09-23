@@ -26,7 +26,6 @@ RUN sed -i "1iexport LD_LIBRARY_PATH=/home/pgottesm/DockerShare/.openmpi/lib" /r
 # Configure SSH service.
 WORKDIR /root/
 EXPOSE 22
-RUN /usr/sbin/sshd
 
 COPY ssh /root/.ssh
-
+RUN /usr/sbin/sshd
