@@ -28,4 +28,5 @@ WORKDIR /root/
 EXPOSE 22
 
 COPY ssh /root/.ssh
+RUN chmod 700 /root/.ssh/id_rsa
 RUN /usr/sbin/sshd

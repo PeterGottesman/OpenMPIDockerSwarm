@@ -33,7 +33,6 @@ def run(args):
     for host in Hosts.split(','):
         slave_ip = call("pdsh -N -w " + host + " ~/OpenMPIDockerSwarm/runscript/runslave.py " + str(NumSlaves) + " " + host[-2:], "Error launching slaves").split('\n')
         slaveips.extend(slave_ip)
-        print(slave_ip)
 
     if "Error" in slaveips:
         print("Error launching slaves, dumping output:")

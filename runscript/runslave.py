@@ -23,7 +23,7 @@ def spawn_slaves(args):
         core=CoreList[slave%len(CoreList)]
         ip += 1
         slaveip = "10.20." + NodeNum + "." + str(ip)
-        slaveid = call("docker run --name slave"+str(slave)+" -h slave"+str(slave)+" -dit --privileged --cpuset-cpus="+str(core)+" -v ~/DockerShare/data:/data:z --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 =" + slaveip + "/16 \" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth3\" --lxc-conf=\"lxc.network.flags=up\" petergottesman/ompiswarm /bin/bash", "Error launching slave container number " + str(slave))
+        slaveid = call("docker run --name slave"+str(slave)+" -h slave"+str(slave)+" -dit --privileged --cpuset-cpus="+str(core)+" -v ~/DockerShare/data:/data:z --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 =" + slaveip + "/16 \" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth3\" --lxc-conf=\"lxc.network.flags=up\" petergottesman/ompiswarm /usr/sbin/sshd -D", "Error launching slave container number " + str(slave))
         print(slaveip + "#" + slaveid[:-1])
 
 def main():
