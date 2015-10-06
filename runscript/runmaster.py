@@ -7,7 +7,7 @@ from subprocess import check_output, CalledProcessError
 
 def call(cmd, ErrorText, debug):
     try:
-        if debug: print(cmd)
+        if debug: log(cmd)
         out = check_output(cmd, shell=True).decode('utf-8')
     except CalledProcessError as err:
         print(ErrorText + " with code: " + str(err.returncode))
@@ -15,11 +15,16 @@ def call(cmd, ErrorText, debug):
 
     return out
 
-def run(args, debug):
+def log(string):
+    with open('masterlogfile', 'w') as f:
+        f.write(string)
+
+def run(args):
     NumSlaves = args.NumSlaves
     f = open(args.Hosts, 'r')
     Hosts = f.readline().rstrip('\n')
     NumHosts = len(Hosts.split(','))
+    debug = args.debug
     
     if not (0 < NumSlaves <= 256):
         print("Error: Number of slaves must be greater than 0 and less than 256 times the number of hosts")
@@ -54,14 +59,12 @@ def run(args, debug):
 
 
 def main():
-    debug = False
     parser = argparse.ArgumentParser()
     parser.add_argument('NumSlaves', metavar='X', type=int, help="Number of slaves to launch per host")
     parser.add_argument('Hosts', help="Comma separated list of hostnames")
     parser.add_argument('--debug', dest='debug', action='store_true')
-    parser.set_defaults(debug=False)
     args = parser.parse_args()
-    run(args, debug)
+    run(args)
 
 if __name__ == "__main__":
     main()
