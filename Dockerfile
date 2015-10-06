@@ -6,7 +6,7 @@ FROM ubuntu:14.04
 MAINTAINER Tien Nguyen <thanhtien522@gmail.com>
 
 # Install GNU compiler
-RUN apt-get update && apt-get install -y gcc g++ gfortran openssh-server libnuma-dev
+RUN apt-get update && apt-get install -y gcc g++ gfortran openssh-server libnuma-dev hwloc
 RUN mkdir /var/run/sshd
 
 RUN sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config
@@ -28,5 +28,5 @@ WORKDIR /root/
 EXPOSE 22
 
 COPY ssh /root/.ssh
-RUN chmod 700 /root/.ssh/id_rsa
+RUN chmod 600 /root/.ssh/id_rsa
 RUN /usr/sbin/sshd
