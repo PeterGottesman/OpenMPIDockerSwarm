@@ -2,7 +2,7 @@
 #
 ## VERSION  0.9.1
 #
-FROM ubuntu:14.04
+FROM ubuntu:15.04
 MAINTAINER Tien Nguyen <thanhtien522@gmail.com>
 
 # Install GNU compiler
