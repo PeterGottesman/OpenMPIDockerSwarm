@@ -3,7 +3,7 @@
 ## VERSION  0.9.1
 #
 FROM ubuntu:15.04
-MAINTAINER Tien Nguyen <thanhtien522@gmail.com>
+MAINTAINER Peter Gottesman <peter@petergottesman.com>
 
 # Install GNU compiler
 RUN apt-get update && apt-get install -y gcc g++ gfortran openssh-server libnuma-dev hwloc
