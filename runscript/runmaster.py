@@ -31,7 +31,7 @@ def run(args):
         exit(1)
 
     print("Building Image")
-    call("pdsh -w " + Hosts + " docker run --rm -t petergottesman/ompiswarm ", "Error building dockerfile", debug)
+    call("pdsh -w " + Hosts + " docker run --rm petergottesman/ompiswarm ", "Error building dockerfile", debug)
     print("Done")
 
     print("Initializing slave containers")
