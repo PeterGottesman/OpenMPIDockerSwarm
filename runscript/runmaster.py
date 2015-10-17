@@ -54,7 +54,7 @@ def run(args):
     print("Done")
 
     print("Starting master")
-    print(call("docker run --name master -h master -dit --privileged --cpuset-cpus=0 -v ~/DockerShare/data:/data --lxc-conf=\"lxc.network.type = veth\" --lxc-conf=\"lxc.network.ipv4 = 10.20.49.1/16\" --lxc-conf=\"lxc.network.link=dockerbridge0\" --lxc-conf=\"lxc.network.name = eth3\" --lxc-conf=\"lxc.network.flags=up\" petergottesman/ompiswarm /data/startup.sh master", "Error launching master container, ensure run.sh is present", debug))
+    print(call("docker run --name master -h master -dit --privileged --cpuset-cpus=0 -v ~/DockerShare/data:/data petergottesman/ompiswarm /data/startup.sh master", "Error launching master container, ensure run.sh is present", debug))
 
 
 
