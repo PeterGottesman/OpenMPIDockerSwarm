@@ -27,7 +27,7 @@ def spawn_slaves(args):
     for slave in range(NumSlaves):
         core=CoreList[slave%len(CoreList)]
         slaveid = call("docker run --name slave"+str(slave)+" -h slave"+str(slave)+" -dit --privileged --cpuset-cpus="+str(core)+" -v ~/DockerShare/data:/data:z petergottesman/ompiswarm /data/startup.sh slave", "Error launching slave container number " + str(slave), debug)
-        slaveip = call("docker inspect --format '{{ .NetworkSettings.IPAddress }} " + slaveid, "Error getting slaveip for slave number " + str(slave), debug)
+        slaveip = call("docker inspect --format '{{ .NetworkSettings.IPAddress }}' " + slaveid, "Error getting slaveip for slave number " + str(slave), debug)
         print(slaveip + "#" + slaveid[:-1])
 
 def main():

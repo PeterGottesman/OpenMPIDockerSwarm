@@ -2,7 +2,7 @@
 #
 ## VERSION  0.9.1
 #
-FROM ubuntu:15.04
+FROM ubuntu:14.04
 MAINTAINER Peter Gottesman <peter@petergottesman.com>
 
 # Install GNU compiler
