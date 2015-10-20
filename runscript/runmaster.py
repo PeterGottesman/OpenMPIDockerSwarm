@@ -15,9 +15,9 @@ def call(cmd, ErrorText, debug):
 
     return out
 
-def log(string):
-    with open('masterlogfile', 'w') as f:
-        f.write(string)
+def log(string, mode='a'):
+    with open('.masterlogfile', mode) as f:
+        f.write(string + '\n')
 
 def run(args):
     NumSlaves = args.NumSlaves
@@ -25,6 +25,7 @@ def run(args):
     Hosts = f.readline().rstrip('\n')
     NumHosts = len(Hosts.split(','))
     debug = args.debug
+    debug_str = " --debug" if debug else ""
     
     if not (0 < NumSlaves <= 256):
         print("Error: Number of slaves must be greater than 0 and less than 256 times the number of hosts")
@@ -37,7 +38,7 @@ def run(args):
     print("Initializing slave containers")
     slaveips = []
     for host in Hosts.split(','):
-        slave_ip = call("pdsh -N -w " + host + " ~/OpenMPIDockerSwarm/runscript/runslave.py " + str(NumSlaves) + " " + host[-2:], "Error launching slaves", debug).split('\n')
+        slave_ip = call("pdsh -N -w " + host + " ~/OpenMPIDockerSwarm/runscript/runslave.py " + str(NumSlaves) + " " + host[-2:] + debug_str, "Error launching slaves", debug).split('\n')
         slaveips.extend(slave_ip)
 
     if "Error" in slaveips:
@@ -59,6 +60,8 @@ def run(args):
 
 
 def main():
+    log('init', 'w')
+
     parser = argparse.ArgumentParser()
     parser.add_argument('NumSlaves', metavar='X', type=int, help="Number of slaves to launch per host")
     parser.add_argument('Hosts', help="Comma separated list of hostnames")

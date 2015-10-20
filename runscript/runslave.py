@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+from socket import gethostname
 from subprocess import check_output, CalledProcessError
 
 def call(cmd, ErrorText, debug):
@@ -13,15 +14,16 @@ def call(cmd, ErrorText, debug):
 
     return out
 
-def log(string):
-    with open('slavelogfile', 'w') as f:
-        f.write(string)
+def log(string, mode='a'):
+    with open('.slavelogfile_' + gethostname(), mode) as f:
+        f.write(string + '\n')
 
 def spawn_slaves(args):
     NumSlaves = args.NumSlaves
     NodeNum = args.NodeNum
+    log(str(NodeNum))
     debug = args.debug
-    CoreList = call("hwloc-calc --physical --intersect PU machine:0", "Error getting list of cores, make sure hwloc is installed", debug).split(',')
+    CoreList = call("hwloc-calc --physical --intersect PU machine:0", "Error getting list of cores, make sure hwloc is installed", debug).rstrip('\n').split(',')
     print("#node" + str(NodeNum))
 
     for slave in range(NumSlaves):
@@ -31,6 +33,8 @@ def spawn_slaves(args):
         print(slaveip + "#" + slaveid[:-1])
 
 def main():
+    log('init', 'w')
+
     parser = argparse.ArgumentParser()
     parser.add_argument('NumSlaves', metavar='X', type=int)
     parser.add_argument('NodeNum', metavar='Y')
