@@ -14,6 +14,7 @@ fi
 
 #if $2 is bare run ~/DockerShare/data/run.py with hostfile as hosts.txt
 if [ "$2" == "bare" ]; then
+    rm -f ~/DockerShare/data/times.txt
     for num in $(seq 1 $1); do
         ~/DockerShare/data/run.py $(readlink -f hosts.txt) $num
     done

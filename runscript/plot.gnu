@@ -17,7 +17,7 @@ set key top right
 
 # Output to a PDF file
 set terminal dumb 
-set output "out.gif"
+set output "out.dumb"
 
 # Plot the data:
 # The first line will take the values from the 1st and 2nd column in the
