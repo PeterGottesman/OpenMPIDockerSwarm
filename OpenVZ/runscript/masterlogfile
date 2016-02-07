@@ -1,0 +1,2 @@
+init
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 167 02.06.16-22:06:24.776732 per-core'

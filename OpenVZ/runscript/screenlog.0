@@ -1,0 +1,1170 @@
+['per-core:1-921:5', 'per-server:1-921:5', 'bare:1-47:5']
+/bin/true SlaveAllocLoop
+per-core:1-921:5
+
+/bin/true Post Format
+/bin/true Formatted
+Initializing Slaves
+{'node41': 0, 'node19': 0, 'node23': 0, 'node18': 0, 'node16': 0, 'node33': 0, 'node05': 0, 'node07': 0, 'node14': 0, 'node39': 0, 'node22': 0, 'node17': 0, 'node28': 0, 'node40': 0, 'node24': 0, 'node30': 0, 'node12': 0, 'node31': 0, 'node11': 0, 'node29': 0, 'node10': 0, 'node32': 0, 'node44': 0, 'node36': 0, 'node43': 0, 'node26': 0, 'node09': 0, 'node37': 0, 'node13': 0, 'node01': 1, 'node48': 0, 'node21': 0, 'node04': 0, 'node27': 0, 'node08': 0, 'node35': 0, 'node38': 0, 'node06': 0, 'node25': 0, 'node20': 0, 'node15': 0, 'node02': 0, 'node34': 0, 'node47': 0, 'node03': 0, 'node42': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 1 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node33': 0, 'node20': 0, 'node32': 0, 'node42': 0, 'node15': 0, 'node04': 0, 'node47': 0, 'node12': 0, 'node22': 0, 'node18': 0, 'node30': 0, 'node43': 0, 'node35': 0, 'node31': 0, 'node29': 0, 'node24': 0, 'node06': 0, 'node40': 0, 'node03': 0, 'node19': 0, 'node27': 0, 'node39': 0, 'node11': 0, 'node01': 1, 'node44': 0, 'node34': 0, 'node16': 0, 'node17': 0, 'node38': 0, 'node28': 0, 'node09': 0, 'node25': 0, 'node23': 0, 'node21': 0, 'node10': 0, 'node37': 0, 'node14': 0, 'node07': 0, 'node36': 0, 'node41': 0, 'node26': 0, 'node05': 0, 'node48': 0, 'node08': 0, 'node13': 0, 'node02': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 2 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node21': 0, 'node02': 1, 'node08': 0, 'node42': 0, 'node43': 0, 'node26': 0, 'node25': 0, 'node14': 0, 'node10': 0, 'node40': 0, 'node38': 0, 'node13': 0, 'node01': 1, 'node11': 0, 'node48': 0, 'node33': 0, 'node12': 0, 'node07': 0, 'node24': 0, 'node28': 0, 'node29': 0, 'node20': 0, 'node17': 0, 'node31': 0, 'node27': 0, 'node37': 0, 'node19': 0, 'node34': 0, 'node22': 0, 'node23': 0, 'node36': 0, 'node39': 0, 'node05': 0, 'node15': 0, 'node32': 0, 'node47': 0, 'node03': 1, 'node16': 0, 'node30': 0, 'node18': 0, 'node41': 0, 'node09': 0, 'node44': 0, 'node35': 0, 'node04': 0, 'node06': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 3 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node24': 0, 'node42': 0, 'node15': 0, 'node31': 0, 'node35': 0, 'node34': 0, 'node30': 0, 'node33': 0, 'node14': 0, 'node26': 0, 'node05': 0, 'node32': 0, 'node29': 0, 'node39': 0, 'node44': 0, 'node13': 0, 'node37': 0, 'node36': 0, 'node38': 0, 'node47': 0, 'node07': 0, 'node06': 0, 'node27': 0, 'node22': 0, 'node28': 0, 'node16': 0, 'node10': 0, 'node25': 0, 'node03': 1, 'node04': 1, 'node18': 0, 'node08': 0, 'node02': 1, 'node41': 0, 'node40': 0, 'node09': 0, 'node21': 0, 'node19': 0, 'node23': 0, 'node17': 0, 'node01': 1, 'node48': 0, 'node11': 0, 'node12': 0, 'node20': 0, 'node43': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 4 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node04': 1, 'node36': 0, 'node18': 0, 'node37': 0, 'node19': 0, 'node41': 0, 'node26': 0, 'node47': 0, 'node07': 0, 'node21': 0, 'node39': 0, 'node17': 0, 'node06': 0, 'node01': 1, 'node10': 0, 'node20': 0, 'node27': 0, 'node13': 0, 'node28': 0, 'node29': 0, 'node35': 0, 'node05': 1, 'node31': 0, 'node42': 0, 'node14': 0, 'node12': 0, 'node09': 0, 'node03': 1, 'node43': 0, 'node34': 0, 'node30': 0, 'node32': 0, 'node25': 0, 'node23': 0, 'node02': 1, 'node44': 0, 'node15': 0, 'node22': 0, 'node16': 0, 'node08': 0, 'node38': 0, 'node33': 0, 'node48': 0, 'node24': 0, 'node11': 0, 'node40': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 5 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node03': 1, 'node37': 0, 'node20': 0, 'node27': 0, 'node24': 0, 'node17': 0, 'node13': 0, 'node47': 0, 'node25': 0, 'node19': 0, 'node14': 0, 'node07': 0, 'node06': 1, 'node16': 0, 'node35': 0, 'node43': 0, 'node30': 0, 'node08': 0, 'node02': 1, 'node38': 0, 'node32': 0, 'node21': 0, 'node18': 0, 'node41': 0, 'node15': 0, 'node48': 0, 'node11': 0, 'node04': 1, 'node40': 0, 'node12': 0, 'node05': 1, 'node09': 0, 'node28': 0, 'node36': 0, 'node39': 0, 'node01': 1, 'node29': 0, 'node31': 0, 'node10': 0, 'node34': 0, 'node42': 0, 'node23': 0, 'node44': 0, 'node22': 0, 'node33': 0, 'node26': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 6 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node36': 0, 'node34': 0, 'node41': 0, 'node11': 0, 'node09': 0, 'node16': 0, 'node44': 0, 'node24': 0, 'node47': 0, 'node30': 0, 'node48': 0, 'node31': 0, 'node02': 1, 'node22': 0, 'node33': 0, 'node23': 0, 'node37': 0, 'node13': 0, 'node39': 0, 'node17': 0, 'node42': 0, 'node28': 0, 'node21': 0, 'node29': 0, 'node18': 0, 'node38': 0, 'node10': 0, 'node06': 1, 'node40': 0, 'node35': 0, 'node01': 1, 'node26': 0, 'node15': 0, 'node27': 0, 'node12': 0, 'node05': 1, 'node20': 0, 'node04': 1, 'node08': 0, 'node07': 1, 'node03': 1, 'node14': 0, 'node32': 0, 'node19': 0, 'node25': 0, 'node43': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 7 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node14': 0, 'node34': 0, 'node42': 0, 'node38': 0, 'node22': 0, 'node39': 0, 'node17': 0, 'node32': 0, 'node43': 0, 'node11': 0, 'node02': 1, 'node03': 1, 'node12': 0, 'node37': 0, 'node30': 0, 'node48': 0, 'node40': 0, 'node15': 0, 'node13': 0, 'node29': 0, 'node18': 0, 'node28': 0, 'node16': 0, 'node07': 1, 'node05': 1, 'node33': 0, 'node23': 0, 'node21': 0, 'node01': 1, 'node47': 0, 'node08': 1, 'node35': 0, 'node41': 0, 'node20': 0, 'node36': 0, 'node27': 0, 'node10': 0, 'node04': 1, 'node44': 0, 'node26': 0, 'node09': 0, 'node24': 0, 'node06': 1, 'node19': 0, 'node31': 0, 'node25': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 8 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node01': 1, 'node36': 0, 'node32': 0, 'node24': 0, 'node33': 0, 'node28': 0, 'node44': 0, 'node38': 0, 'node04': 1, 'node29': 0, 'node09': 1, 'node19': 0, 'node21': 0, 'node40': 0, 'node06': 1, 'node37': 0, 'node14': 0, 'node35': 0, 'node26': 0, 'node41': 0, 'node05': 1, 'node03': 1, 'node30': 0, 'node43': 0, 'node13': 0, 'node48': 0, 'node15': 0, 'node16': 0, 'node11': 0, 'node07': 1, 'node12': 0, 'node31': 0, 'node25': 0, 'node02': 1, 'node17': 0, 'node18': 0, 'node47': 0, 'node08': 1, 'node10': 0, 'node27': 0, 'node22': 0, 'node34': 0, 'node23': 0, 'node42': 0, 'node39': 0, 'node20': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 9 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node22': 0, 'node21': 0, 'node36': 0, 'node20': 0, 'node48': 0, 'node09': 1, 'node44': 0, 'node34': 0, 'node07': 1, 'node32': 0, 'node27': 0, 'node05': 1, 'node41': 0, 'node13': 0, 'node14': 0, 'node25': 0, 'node39': 0, 'node43': 0, 'node08': 1, 'node33': 0, 'node28': 0, 'node29': 0, 'node12': 0, 'node19': 0, 'node16': 0, 'node15': 0, 'node38': 0, 'node26': 0, 'node40': 0, 'node18': 0, 'node10': 1, 'node42': 0, 'node02': 1, 'node24': 0, 'node37': 0, 'node04': 1, 'node06': 1, 'node30': 0, 'node47': 0, 'node11': 0, 'node31': 0, 'node03': 1, 'node23': 0, 'node17': 0, 'node01': 1, 'node35': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 10 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node40': 0, 'node09': 1, 'node06': 1, 'node48': 0, 'node29': 0, 'node38': 0, 'node33': 0, 'node37': 0, 'node21': 0, 'node18': 0, 'node41': 0, 'node01': 1, 'node04': 1, 'node17': 0, 'node35': 0, 'node44': 0, 'node12': 0, 'node47': 0, 'node05': 1, 'node34': 0, 'node28': 0, 'node14': 0, 'node16': 0, 'node22': 0, 'node03': 1, 'node32': 0, 'node39': 0, 'node07': 1, 'node31': 0, 'node36': 0, 'node43': 0, 'node02': 1, 'node11': 1, 'node30': 0, 'node10': 1, 'node08': 1, 'node23': 0, 'node20': 0, 'node26': 0, 'node24': 0, 'node27': 0, 'node25': 0, 'node15': 0, 'node19': 0, 'node13': 0, 'node42': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 11 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node40': 0, 'node30': 0, 'node38': 0, 'node23': 0, 'node27': 0, 'node36': 0, 'node02': 1, 'node24': 0, 'node21': 0, 'node41': 0, 'node42': 0, 'node35': 0, 'node12': 1, 'node44': 0, 'node19': 0, 'node33': 0, 'node03': 1, 'node14': 0, 'node47': 0, 'node22': 0, 'node29': 0, 'node39': 0, 'node08': 1, 'node09': 1, 'node18': 0, 'node26': 0, 'node43': 0, 'node16': 0, 'node37': 0, 'node04': 1, 'node06': 1, 'node07': 1, 'node17': 0, 'node20': 0, 'node13': 0, 'node31': 0, 'node11': 1, 'node28': 0, 'node25': 0, 'node48': 0, 'node34': 0, 'node32': 0, 'node01': 1, 'node15': 0, 'node05': 1, 'node10': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 12 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node40': 0, 'node11': 1, 'node29': 0, 'node18': 0, 'node33': 0, 'node13': 1, 'node03': 1, 'node38': 0, 'node36': 0, 'node20': 0, 'node41': 0, 'node42': 0, 'node01': 1, 'node30': 0, 'node07': 1, 'node44': 0, 'node02': 1, 'node04': 1, 'node19': 0, 'node22': 0, 'node08': 1, 'node25': 0, 'node16': 0, 'node06': 1, 'node10': 1, 'node23': 0, 'node48': 0, 'node32': 0, 'node39': 0, 'node09': 1, 'node27': 0, 'node14': 0, 'node15': 0, 'node24': 0, 'node05': 1, 'node43': 0, 'node26': 0, 'node34': 0, 'node37': 0, 'node28': 0, 'node31': 0, 'node12': 1, 'node35': 0, 'node21': 0, 'node17': 0, 'node47': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 13 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node37': 0, 'node24': 0, 'node47': 0, 'node21': 0, 'node16': 0, 'node22': 0, 'node33': 0, 'node40': 0, 'node09': 1, 'node23': 0, 'node17': 0, 'node31': 0, 'node42': 0, 'node01': 1, 'node41': 0, 'node35': 0, 'node26': 0, 'node34': 0, 'node14': 1, 'node30': 0, 'node15': 0, 'node03': 1, 'node19': 0, 'node02': 1, 'node28': 0, 'node36': 0, 'node12': 1, 'node38': 0, 'node39': 0, 'node43': 0, 'node08': 1, 'node05': 1, 'node10': 1, 'node07': 1, 'node06': 1, 'node48': 0, 'node44': 0, 'node29': 0, 'node11': 1, 'node13': 1, 'node25': 0, 'node32': 0, 'node18': 0, 'node27': 0, 'node04': 1, 'node20': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 14 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node18': 0, 'node19': 0, 'node09': 1, 'node22': 0, 'node10': 1, 'node07': 1, 'node44': 0, 'node21': 0, 'node35': 0, 'node20': 0, 'node39': 0, 'node33': 0, 'node42': 0, 'node03': 1, 'node11': 1, 'node41': 0, 'node14': 1, 'node28': 0, 'node13': 1, 'node29': 0, 'node48': 0, 'node38': 0, 'node36': 0, 'node05': 1, 'node32': 0, 'node43': 0, 'node17': 0, 'node16': 0, 'node08': 1, 'node25': 0, 'node27': 0, 'node30': 0, 'node01': 1, 'node31': 0, 'node23': 0, 'node24': 0, 'node47': 0, 'node37': 0, 'node02': 1, 'node12': 1, 'node34': 0, 'node26': 0, 'node04': 1, 'node40': 0, 'node06': 1, 'node15': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 15 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node12': 1, 'node10': 1, 'node07': 1, 'node44': 0, 'node41': 0, 'node24': 0, 'node13': 1, 'node33': 0, 'node22': 0, 'node05': 1, 'node43': 0, 'node18': 0, 'node20': 0, 'node40': 0, 'node06': 1, 'node03': 1, 'node11': 1, 'node21': 0, 'node36': 0, 'node15': 1, 'node39': 0, 'node16': 1, 'node23': 0, 'node38': 0, 'node48': 0, 'node27': 0, 'node17': 0, 'node31': 0, 'node32': 0, 'node09': 1, 'node08': 1, 'node47': 0, 'node30': 0, 'node42': 0, 'node34': 0, 'node19': 0, 'node02': 1, 'node37': 0, 'node28': 0, 'node29': 0, 'node01': 1, 'node25': 0, 'node35': 0, 'node26': 0, 'node04': 1, 'node14': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 16 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node42': 0, 'node02': 1, 'node18': 0, 'node13': 1, 'node47': 0, 'node17': 1, 'node14': 1, 'node16': 1, 'node20': 0, 'node03': 1, 'node28': 0, 'node29': 0, 'node39': 0, 'node31': 0, 'node43': 0, 'node27': 0, 'node05': 1, 'node22': 0, 'node04': 1, 'node40': 0, 'node25': 0, 'node11': 1, 'node38': 0, 'node34': 0, 'node19': 0, 'node26': 0, 'node12': 1, 'node24': 0, 'node35': 0, 'node10': 1, 'node30': 0, 'node21': 0, 'node01': 1, 'node08': 1, 'node33': 0, 'node41': 0, 'node07': 1, 'node09': 1, 'node37': 0, 'node06': 1, 'node32': 0, 'node44': 0, 'node36': 0, 'node15': 1, 'node48': 0, 'node23': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 17 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node15': 1, 'node03': 1, 'node40': 0, 'node47': 0, 'node22': 0, 'node26': 0, 'node21': 0, 'node14': 1, 'node01': 1, 'node06': 1, 'node11': 1, 'node20': 0, 'node17': 1, 'node33': 0, 'node41': 0, 'node28': 0, 'node43': 0, 'node32': 0, 'node30': 0, 'node35': 0, 'node48': 0, 'node31': 0, 'node29': 0, 'node36': 0, 'node13': 1, 'node18': 1, 'node02': 1, 'node19': 0, 'node12': 1, 'node39': 0, 'node42': 0, 'node44': 0, 'node25': 0, 'node38': 0, 'node08': 1, 'node23': 0, 'node37': 0, 'node04': 1, 'node27': 0, 'node24': 0, 'node05': 1, 'node09': 1, 'node34': 0, 'node10': 1, 'node07': 1, 'node16': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 18 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node33': 0, 'node29': 0, 'node37': 0, 'node10': 1, 'node34': 0, 'node24': 0, 'node38': 0, 'node40': 0, 'node30': 0, 'node36': 0, 'node19': 1, 'node15': 1, 'node43': 0, 'node18': 1, 'node21': 0, 'node14': 1, 'node03': 1, 'node47': 0, 'node39': 0, 'node41': 0, 'node22': 0, 'node02': 1, 'node23': 0, 'node25': 0, 'node26': 0, 'node32': 0, 'node13': 1, 'node42': 0, 'node44': 0, 'node28': 0, 'node06': 1, 'node12': 1, 'node16': 1, 'node09': 1, 'node31': 0, 'node07': 1, 'node11': 1, 'node08': 1, 'node20': 0, 'node01': 1, 'node04': 1, 'node48': 0, 'node27': 0, 'node05': 1, 'node35': 0, 'node17': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 19 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node31': 0, 'node41': 0, 'node48': 0, 'node05': 1, 'node47': 0, 'node16': 1, 'node06': 1, 'node38': 0, 'node18': 1, 'node43': 0, 'node13': 1, 'node30': 0, 'node07': 1, 'node27': 0, 'node19': 1, 'node35': 0, 'node03': 1, 'node25': 0, 'node23': 0, 'node34': 0, 'node20': 1, 'node01': 1, 'node28': 0, 'node15': 1, 'node33': 0, 'node04': 1, 'node08': 1, 'node40': 0, 'node14': 1, 'node32': 0, 'node22': 0, 'node10': 1, 'node12': 1, 'node17': 1, 'node09': 1, 'node36': 0, 'node26': 0, 'node37': 0, 'node21': 0, 'node24': 0, 'node11': 1, 'node02': 1, 'node29': 0, 'node39': 0, 'node44': 0, 'node42': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 20 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node01': 1, 'node47': 0, 'node42': 0, 'node24': 0, 'node28': 0, 'node14': 1, 'node03': 1, 'node06': 1, 'node18': 1, 'node26': 0, 'node11': 1, 'node48': 0, 'node41': 0, 'node38': 0, 'node07': 1, 'node34': 0, 'node05': 1, 'node27': 0, 'node25': 0, 'node31': 0, 'node13': 1, 'node32': 0, 'node17': 1, 'node19': 1, 'node02': 1, 'node15': 1, 'node22': 0, 'node33': 0, 'node43': 0, 'node10': 1, 'node44': 0, 'node36': 0, 'node40': 0, 'node23': 0, 'node30': 0, 'node12': 1, 'node04': 1, 'node35': 0, 'node39': 0, 'node09': 1, 'node16': 1, 'node37': 0, 'node08': 1, 'node20': 1, 'node21': 1, 'node29': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 21 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node38': 0, 'node35': 0, 'node04': 1, 'node25': 0, 'node07': 1, 'node12': 1, 'node03': 1, 'node33': 0, 'node17': 1, 'node31': 0, 'node41': 0, 'node30': 0, 'node47': 0, 'node37': 0, 'node43': 0, 'node44': 0, 'node16': 1, 'node19': 1, 'node01': 1, 'node05': 1, 'node10': 1, 'node22': 1, 'node20': 1, 'node08': 1, 'node09': 1, 'node29': 0, 'node36': 0, 'node39': 0, 'node21': 1, 'node15': 1, 'node23': 0, 'node18': 1, 'node14': 1, 'node42': 0, 'node28': 0, 'node06': 1, 'node40': 0, 'node32': 0, 'node26': 0, 'node27': 0, 'node13': 1, 'node48': 0, 'node11': 1, 'node34': 0, 'node24': 0, 'node02': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 22 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node18': 1, 'node36': 0, 'node47': 0, 'node13': 1, 'node03': 1, 'node28': 0, 'node21': 1, 'node40': 0, 'node38': 0, 'node22': 1, 'node02': 1, 'node26': 0, 'node29': 0, 'node15': 1, 'node14': 1, 'node32': 0, 'node12': 1, 'node41': 0, 'node23': 1, 'node01': 1, 'node16': 1, 'node30': 0, 'node09': 1, 'node17': 1, 'node05': 1, 'node19': 1, 'node31': 0, 'node42': 0, 'node04': 1, 'node11': 1, 'node37': 0, 'node06': 1, 'node10': 1, 'node20': 1, 'node35': 0, 'node43': 0, 'node39': 0, 'node34': 0, 'node44': 0, 'node07': 1, 'node25': 0, 'node24': 0, 'node33': 0, 'node27': 0, 'node08': 1, 'node48': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 23 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node39': 0, 'node34': 0, 'node11': 1, 'node40': 0, 'node19': 1, 'node14': 1, 'node05': 1, 'node30': 0, 'node16': 1, 'node13': 1, 'node31': 0, 'node17': 1, 'node24': 1, 'node36': 0, 'node47': 0, 'node01': 1, 'node38': 0, 'node02': 1, 'node22': 1, 'node37': 0, 'node10': 1, 'node18': 1, 'node23': 1, 'node41': 0, 'node29': 0, 'node12': 1, 'node43': 0, 'node07': 1, 'node06': 1, 'node21': 1, 'node28': 0, 'node48': 0, 'node09': 1, 'node26': 0, 'node04': 1, 'node32': 0, 'node20': 1, 'node25': 0, 'node03': 1, 'node35': 0, 'node42': 0, 'node15': 1, 'node44': 0, 'node08': 1, 'node27': 0, 'node33': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 24 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node35': 0, 'node38': 0, 'node05': 1, 'node44': 0, 'node41': 0, 'node20': 1, 'node29': 0, 'node37': 0, 'node47': 0, 'node07': 1, 'node04': 1, 'node24': 1, 'node27': 0, 'node10': 1, 'node08': 1, 'node03': 1, 'node33': 0, 'node42': 0, 'node30': 0, 'node17': 1, 'node21': 1, 'node11': 1, 'node32': 0, 'node28': 0, 'node13': 1, 'node01': 1, 'node02': 1, 'node14': 1, 'node31': 0, 'node40': 0, 'node12': 1, 'node48': 0, 'node22': 1, 'node09': 1, 'node16': 1, 'node25': 1, 'node23': 1, 'node06': 1, 'node18': 1, 'node39': 0, 'node19': 1, 'node26': 0, 'node15': 1, 'node34': 0, 'node43': 0, 'node36': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 25 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node18': 1, 'node21': 1, 'node32': 0, 'node02': 1, 'node34': 0, 'node13': 1, 'node31': 0, 'node10': 1, 'node30': 0, 'node42': 0, 'node16': 1, 'node15': 1, 'node39': 0, 'node14': 1, 'node47': 0, 'node41': 0, 'node06': 1, 'node23': 1, 'node48': 0, 'node25': 1, 'node26': 1, 'node01': 1, 'node36': 0, 'node20': 1, 'node09': 1, 'node08': 1, 'node29': 0, 'node43': 0, 'node37': 0, 'node19': 1, 'node22': 1, 'node35': 0, 'node28': 0, 'node05': 1, 'node17': 1, 'node24': 1, 'node11': 1, 'node38': 0, 'node03': 1, 'node44': 0, 'node12': 1, 'node04': 1, 'node27': 0, 'node33': 0, 'node07': 1, 'node40': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 26 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node40': 0, 'node18': 1, 'node37': 0, 'node36': 0, 'node39': 0, 'node02': 1, 'node28': 0, 'node24': 1, 'node29': 0, 'node03': 1, 'node17': 1, 'node38': 0, 'node33': 0, 'node31': 0, 'node25': 1, 'node23': 1, 'node21': 1, 'node26': 1, 'node14': 1, 'node22': 1, 'node30': 0, 'node06': 1, 'node20': 1, 'node16': 1, 'node48': 0, 'node01': 1, 'node05': 1, 'node47': 0, 'node34': 0, 'node11': 1, 'node44': 0, 'node32': 0, 'node41': 0, 'node42': 0, 'node09': 1, 'node13': 1, 'node08': 1, 'node04': 1, 'node15': 1, 'node07': 1, 'node12': 1, 'node43': 0, 'node10': 1, 'node35': 0, 'node27': 1, 'node19': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 27 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node30': 0, 'node32': 0, 'node39': 0, 'node06': 1, 'node07': 1, 'node26': 1, 'node18': 1, 'node14': 1, 'node43': 0, 'node44': 0, 'node20': 1, 'node48': 0, 'node16': 1, 'node27': 1, 'node40': 0, 'node10': 1, 'node01': 1, 'node17': 1, 'node23': 1, 'node34': 0, 'node36': 0, 'node47': 0, 'node37': 0, 'node29': 0, 'node38': 0, 'node08': 1, 'node05': 1, 'node15': 1, 'node13': 1, 'node19': 1, 'node09': 1, 'node28': 1, 'node42': 0, 'node33': 0, 'node12': 1, 'node41': 0, 'node21': 1, 'node25': 1, 'node31': 0, 'node22': 1, 'node11': 1, 'node02': 1, 'node24': 1, 'node03': 1, 'node04': 1, 'node35': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 28 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node02': 1, 'node30': 0, 'node48': 0, 'node21': 1, 'node37': 0, 'node29': 1, 'node23': 1, 'node36': 0, 'node06': 1, 'node42': 0, 'node44': 0, 'node04': 1, 'node03': 1, 'node40': 0, 'node26': 1, 'node31': 0, 'node24': 1, 'node20': 1, 'node33': 0, 'node39': 0, 'node13': 1, 'node35': 0, 'node12': 1, 'node17': 1, 'node10': 1, 'node11': 1, 'node32': 0, 'node22': 1, 'node16': 1, 'node14': 1, 'node19': 1, 'node47': 0, 'node38': 0, 'node07': 1, 'node27': 1, 'node25': 1, 'node18': 1, 'node28': 1, 'node43': 0, 'node05': 1, 'node41': 0, 'node34': 0, 'node15': 1, 'node09': 1, 'node08': 1, 'node01': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 29 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node19': 1, 'node34': 0, 'node18': 1, 'node35': 0, 'node16': 1, 'node20': 1, 'node13': 1, 'node26': 1, 'node47': 0, 'node44': 0, 'node31': 0, 'node23': 1, 'node11': 1, 'node07': 1, 'node38': 0, 'node05': 1, 'node27': 1, 'node28': 1, 'node14': 1, 'node25': 1, 'node29': 1, 'node41': 0, 'node21': 1, 'node48': 0, 'node42': 0, 'node22': 1, 'node08': 1, 'node37': 0, 'node06': 1, 'node43': 0, 'node30': 1, 'node24': 1, 'node39': 0, 'node09': 1, 'node02': 1, 'node15': 1, 'node17': 1, 'node10': 1, 'node33': 0, 'node12': 1, 'node36': 0, 'node40': 0, 'node04': 1, 'node01': 1, 'node03': 1, 'node32': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 30 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node18': 1, 'node06': 1, 'node09': 1, 'node26': 1, 'node14': 1, 'node17': 1, 'node03': 1, 'node25': 1, 'node27': 1, 'node12': 1, 'node23': 1, 'node40': 0, 'node42': 0, 'node39': 0, 'node07': 1, 'node13': 1, 'node34': 0, 'node08': 1, 'node41': 0, 'node11': 1, 'node24': 1, 'node28': 1, 'node21': 1, 'node47': 0, 'node10': 1, 'node16': 1, 'node32': 0, 'node31': 1, 'node36': 0, 'node04': 1, 'node48': 0, 'node01': 1, 'node43': 0, 'node38': 0, 'node35': 0, 'node29': 1, 'node02': 1, 'node19': 1, 'node44': 0, 'node37': 0, 'node20': 1, 'node33': 0, 'node30': 1, 'node15': 1, 'node05': 1, 'node22': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 31 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node16': 1, 'node15': 1, 'node38': 0, 'node20': 1, 'node19': 1, 'node12': 1, 'node30': 1, 'node33': 0, 'node42': 0, 'node32': 1, 'node22': 1, 'node48': 0, 'node24': 1, 'node02': 1, 'node18': 1, 'node09': 1, 'node39': 0, 'node05': 1, 'node47': 0, 'node25': 1, 'node11': 1, 'node23': 1, 'node27': 1, 'node36': 0, 'node29': 1, 'node13': 1, 'node34': 0, 'node07': 1, 'node03': 1, 'node08': 1, 'node41': 0, 'node01': 1, 'node40': 0, 'node17': 1, 'node14': 1, 'node31': 1, 'node28': 1, 'node26': 1, 'node43': 0, 'node37': 0, 'node04': 1, 'node10': 1, 'node35': 0, 'node44': 0, 'node21': 1, 'node06': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 32 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node19': 1, 'node43': 0, 'node40': 0, 'node27': 1, 'node18': 1, 'node23': 1, 'node11': 1, 'node35': 0, 'node25': 1, 'node37': 0, 'node29': 1, 'node15': 1, 'node20': 1, 'node33': 1, 'node05': 1, 'node09': 1, 'node39': 0, 'node21': 1, 'node47': 0, 'node26': 1, 'node16': 1, 'node06': 1, 'node17': 1, 'node03': 1, 'node44': 0, 'node30': 1, 'node36': 0, 'node13': 1, 'node14': 1, 'node10': 1, 'node01': 1, 'node24': 1, 'node38': 0, 'node12': 1, 'node34': 0, 'node41': 0, 'node28': 1, 'node32': 1, 'node02': 1, 'node04': 1, 'node22': 1, 'node07': 1, 'node08': 1, 'node42': 0, 'node48': 0, 'node31': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 33 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node28': 1, 'node29': 1, 'node06': 1, 'node10': 1, 'node15': 1, 'node09': 1, 'node08': 1, 'node22': 1, 'node34': 1, 'node44': 0, 'node32': 1, 'node38': 0, 'node43': 0, 'node12': 1, 'node20': 1, 'node42': 0, 'node05': 1, 'node24': 1, 'node41': 0, 'node31': 1, 'node36': 0, 'node17': 1, 'node27': 1, 'node23': 1, 'node02': 1, 'node40': 0, 'node39': 0, 'node11': 1, 'node01': 1, 'node04': 1, 'node33': 1, 'node03': 1, 'node07': 1, 'node25': 1, 'node47': 0, 'node30': 1, 'node48': 0, 'node35': 0, 'node18': 1, 'node19': 1, 'node21': 1, 'node26': 1, 'node16': 1, 'node13': 1, 'node14': 1, 'node37': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 34 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node48': 0, 'node08': 1, 'node15': 1, 'node13': 1, 'node25': 1, 'node22': 1, 'node21': 1, 'node38': 0, 'node07': 1, 'node23': 1, 'node20': 1, 'node41': 0, 'node32': 1, 'node19': 1, 'node14': 1, 'node10': 1, 'node33': 1, 'node02': 1, 'node04': 1, 'node28': 1, 'node36': 0, 'node47': 0, 'node12': 1, 'node40': 0, 'node34': 1, 'node05': 1, 'node09': 1, 'node18': 1, 'node06': 1, 'node31': 1, 'node29': 1, 'node43': 0, 'node39': 0, 'node44': 0, 'node35': 1, 'node01': 1, 'node03': 1, 'node27': 1, 'node24': 1, 'node16': 1, 'node17': 1, 'node42': 0, 'node26': 1, 'node37': 0, 'node30': 1, 'node11': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 35 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node30': 1, 'node12': 1, 'node17': 1, 'node40': 0, 'node47': 0, 'node14': 1, 'node28': 1, 'node27': 1, 'node25': 1, 'node01': 1, 'node42': 0, 'node37': 0, 'node04': 1, 'node11': 1, 'node21': 1, 'node31': 1, 'node26': 1, 'node41': 0, 'node36': 1, 'node48': 0, 'node39': 0, 'node32': 1, 'node24': 1, 'node05': 1, 'node33': 1, 'node43': 0, 'node19': 1, 'node09': 1, 'node13': 1, 'node20': 1, 'node38': 0, 'node23': 1, 'node07': 1, 'node18': 1, 'node03': 1, 'node29': 1, 'node22': 1, 'node35': 1, 'node44': 0, 'node16': 1, 'node10': 1, 'node06': 1, 'node02': 1, 'node15': 1, 'node08': 1, 'node34': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 36 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node14': 1, 'node38': 0, 'node32': 1, 'node39': 0, 'node18': 1, 'node08': 1, 'node09': 1, 'node31': 1, 'node20': 1, 'node35': 1, 'node44': 0, 'node15': 1, 'node07': 1, 'node05': 1, 'node03': 1, 'node40': 0, 'node06': 1, 'node41': 0, 'node22': 1, 'node02': 1, 'node12': 1, 'node37': 1, 'node01': 1, 'node25': 1, 'node27': 1, 'node33': 1, 'node04': 1, 'node19': 1, 'node48': 0, 'node34': 1, 'node17': 1, 'node11': 1, 'node47': 0, 'node29': 1, 'node26': 1, 'node30': 1, 'node13': 1, 'node28': 1, 'node21': 1, 'node36': 1, 'node16': 1, 'node10': 1, 'node42': 0, 'node43': 0, 'node24': 1, 'node23': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 37 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node26': 1, 'node15': 1, 'node30': 1, 'node09': 1, 'node37': 1, 'node16': 1, 'node01': 1, 'node20': 1, 'node28': 1, 'node47': 0, 'node43': 0, 'node03': 1, 'node19': 1, 'node36': 1, 'node24': 1, 'node35': 1, 'node06': 1, 'node42': 0, 'node21': 1, 'node08': 1, 'node33': 1, 'node31': 1, 'node14': 1, 'node05': 1, 'node18': 1, 'node34': 1, 'node44': 0, 'node04': 1, 'node17': 1, 'node32': 1, 'node13': 1, 'node29': 1, 'node12': 1, 'node02': 1, 'node48': 0, 'node27': 1, 'node07': 1, 'node10': 1, 'node23': 1, 'node25': 1, 'node22': 1, 'node40': 0, 'node41': 0, 'node38': 1, 'node39': 0, 'node11': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 38 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node48': 0, 'node27': 1, 'node14': 1, 'node05': 1, 'node44': 0, 'node39': 1, 'node47': 0, 'node08': 1, 'node22': 1, 'node10': 1, 'node13': 1, 'node23': 1, 'node09': 1, 'node26': 1, 'node38': 1, 'node19': 1, 'node40': 0, 'node34': 1, 'node42': 0, 'node35': 1, 'node01': 1, 'node06': 1, 'node18': 1, 'node41': 0, 'node30': 1, 'node33': 1, 'node21': 1, 'node37': 1, 'node20': 1, 'node12': 1, 'node02': 1, 'node31': 1, 'node43': 0, 'node15': 1, 'node36': 1, 'node04': 1, 'node29': 1, 'node32': 1, 'node16': 1, 'node28': 1, 'node24': 1, 'node17': 1, 'node07': 1, 'node03': 1, 'node25': 1, 'node11': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 39 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node26': 1, 'node39': 1, 'node34': 1, 'node38': 1, 'node15': 1, 'node25': 1, 'node20': 1, 'node04': 1, 'node29': 1, 'node19': 1, 'node30': 1, 'node07': 1, 'node40': 1, 'node05': 1, 'node42': 0, 'node41': 0, 'node31': 1, 'node08': 1, 'node27': 1, 'node33': 1, 'node14': 1, 'node12': 1, 'node16': 1, 'node37': 1, 'node18': 1, 'node22': 1, 'node43': 0, 'node09': 1, 'node21': 1, 'node17': 1, 'node11': 1, 'node01': 1, 'node03': 1, 'node02': 1, 'node23': 1, 'node36': 1, 'node13': 1, 'node47': 0, 'node44': 0, 'node32': 1, 'node06': 1, 'node28': 1, 'node10': 1, 'node35': 1, 'node24': 1, 'node48': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 40 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node32': 1, 'node23': 1, 'node17': 1, 'node47': 0, 'node02': 1, 'node20': 1, 'node44': 0, 'node27': 1, 'node01': 1, 'node38': 1, 'node21': 1, 'node10': 1, 'node04': 1, 'node33': 1, 'node22': 1, 'node26': 1, 'node34': 1, 'node29': 1, 'node06': 1, 'node43': 0, 'node09': 1, 'node41': 1, 'node03': 1, 'node25': 1, 'node42': 0, 'node08': 1, 'node16': 1, 'node14': 1, 'node19': 1, 'node28': 1, 'node48': 0, 'node40': 1, 'node11': 1, 'node05': 1, 'node30': 1, 'node36': 1, 'node31': 1, 'node15': 1, 'node12': 1, 'node07': 1, 'node37': 1, 'node18': 1, 'node35': 1, 'node24': 1, 'node39': 1, 'node13': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 41 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node07': 1, 'node17': 1, 'node26': 1, 'node29': 1, 'node13': 1, 'node39': 1, 'node02': 1, 'node12': 1, 'node22': 1, 'node20': 1, 'node41': 1, 'node21': 1, 'node35': 1, 'node04': 1, 'node15': 1, 'node23': 1, 'node05': 1, 'node48': 0, 'node03': 1, 'node44': 0, 'node30': 1, 'node24': 1, 'node42': 1, 'node34': 1, 'node28': 1, 'node32': 1, 'node10': 1, 'node33': 1, 'node36': 1, 'node37': 1, 'node31': 1, 'node40': 1, 'node43': 0, 'node14': 1, 'node08': 1, 'node01': 1, 'node25': 1, 'node19': 1, 'node18': 1, 'node11': 1, 'node16': 1, 'node38': 1, 'node27': 1, 'node06': 1, 'node47': 0, 'node09': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 42 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node20': 1, 'node32': 1, 'node08': 1, 'node17': 1, 'node04': 1, 'node02': 1, 'node11': 1, 'node19': 1, 'node33': 1, 'node22': 1, 'node30': 1, 'node18': 1, 'node21': 1, 'node06': 1, 'node36': 1, 'node41': 1, 'node05': 1, 'node43': 1, 'node29': 1, 'node28': 1, 'node24': 1, 'node42': 1, 'node34': 1, 'node48': 0, 'node31': 1, 'node23': 1, 'node26': 1, 'node35': 1, 'node37': 1, 'node25': 1, 'node44': 0, 'node47': 0, 'node15': 1, 'node03': 1, 'node09': 1, 'node39': 1, 'node07': 1, 'node01': 1, 'node13': 1, 'node14': 1, 'node40': 1, 'node27': 1, 'node10': 1, 'node12': 1, 'node38': 1, 'node16': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 43 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node29': 1, 'node21': 1, 'node05': 1, 'node10': 1, 'node07': 1, 'node36': 1, 'node39': 1, 'node27': 1, 'node23': 1, 'node41': 1, 'node48': 0, 'node04': 1, 'node25': 1, 'node37': 1, 'node06': 1, 'node15': 1, 'node31': 1, 'node16': 1, 'node09': 1, 'node38': 1, 'node22': 1, 'node08': 1, 'node35': 1, 'node20': 1, 'node44': 1, 'node17': 1, 'node30': 1, 'node12': 1, 'node13': 1, 'node14': 1, 'node01': 1, 'node40': 1, 'node26': 1, 'node03': 1, 'node11': 1, 'node28': 1, 'node33': 1, 'node42': 1, 'node02': 1, 'node19': 1, 'node43': 1, 'node24': 1, 'node34': 1, 'node32': 1, 'node18': 1, 'node47': 0}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 44 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node07': 1, 'node40': 1, 'node33': 1, 'node08': 1, 'node28': 1, 'node06': 1, 'node05': 1, 'node04': 1, 'node34': 1, 'node20': 1, 'node11': 1, 'node30': 1, 'node18': 1, 'node48': 0, 'node35': 1, 'node10': 1, 'node41': 1, 'node32': 1, 'node22': 1, 'node31': 1, 'node12': 1, 'node09': 1, 'node03': 1, 'node01': 1, 'node02': 1, 'node13': 1, 'node36': 1, 'node16': 1, 'node38': 1, 'node17': 1, 'node21': 1, 'node24': 1, 'node37': 1, 'node19': 1, 'node39': 1, 'node27': 1, 'node43': 1, 'node47': 1, 'node23': 1, 'node42': 1, 'node44': 1, 'node14': 1, 'node26': 1, 'node29': 1, 'node15': 1, 'node25': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 45 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node44': 1, 'node48': 1, 'node10': 1, 'node05': 1, 'node11': 1, 'node35': 1, 'node37': 1, 'node03': 1, 'node07': 1, 'node42': 1, 'node36': 1, 'node01': 1, 'node32': 1, 'node17': 1, 'node04': 1, 'node25': 1, 'node18': 1, 'node08': 1, 'node16': 1, 'node13': 1, 'node40': 1, 'node23': 1, 'node15': 1, 'node41': 1, 'node29': 1, 'node38': 1, 'node43': 1, 'node14': 1, 'node39': 1, 'node26': 1, 'node09': 1, 'node06': 1, 'node24': 1, 'node20': 1, 'node21': 1, 'node27': 1, 'node19': 1, 'node02': 1, 'node30': 1, 'node28': 1, 'node22': 1, 'node12': 1, 'node31': 1, 'node33': 1, 'node47': 1, 'node34': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 46 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node13': 1, 'node35': 1, 'node04': 1, 'node17': 1, 'node26': 1, 'node29': 1, 'node14': 1, 'node19': 1, 'node42': 1, 'node47': 1, 'node18': 1, 'node12': 1, 'node27': 1, 'node23': 1, 'node03': 1, 'node01': 2, 'node44': 1, 'node34': 1, 'node41': 1, 'node15': 1, 'node40': 1, 'node11': 1, 'node24': 1, 'node31': 1, 'node48': 1, 'node16': 1, 'node10': 1, 'node33': 1, 'node38': 1, 'node37': 1, 'node30': 1, 'node43': 1, 'node22': 1, 'node02': 1, 'node28': 1, 'node08': 1, 'node36': 1, 'node05': 1, 'node39': 1, 'node25': 1, 'node06': 1, 'node20': 1, 'node32': 1, 'node09': 1, 'node07': 1, 'node21': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 47 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node06': 1, 'node18': 1, 'node44': 1, 'node27': 1, 'node30': 1, 'node25': 1, 'node47': 1, 'node28': 1, 'node13': 1, 'node14': 1, 'node08': 1, 'node36': 1, 'node01': 2, 'node21': 1, 'node05': 1, 'node37': 1, 'node39': 1, 'node40': 1, 'node03': 1, 'node17': 1, 'node07': 1, 'node22': 1, 'node31': 1, 'node15': 1, 'node33': 1, 'node29': 1, 'node04': 1, 'node48': 1, 'node12': 1, 'node24': 1, 'node02': 2, 'node41': 1, 'node43': 1, 'node19': 1, 'node10': 1, 'node35': 1, 'node38': 1, 'node09': 1, 'node20': 1, 'node11': 1, 'node34': 1, 'node32': 1, 'node42': 1, 'node26': 1, 'node23': 1, 'node16': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 48 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node07': 1, 'node03': 2, 'node43': 1, 'node42': 1, 'node10': 1, 'node31': 1, 'node34': 1, 'node23': 1, 'node16': 1, 'node30': 1, 'node36': 1, 'node24': 1, 'node21': 1, 'node29': 1, 'node04': 1, 'node37': 1, 'node15': 1, 'node40': 1, 'node47': 1, 'node25': 1, 'node19': 1, 'node22': 1, 'node09': 1, 'node26': 1, 'node41': 1, 'node44': 1, 'node14': 1, 'node08': 1, 'node33': 1, 'node27': 1, 'node17': 1, 'node06': 1, 'node39': 1, 'node18': 1, 'node20': 1, 'node05': 1, 'node02': 2, 'node01': 2, 'node13': 1, 'node35': 1, 'node28': 1, 'node38': 1, 'node11': 1, 'node12': 1, 'node48': 1, 'node32': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 49 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node27': 1, 'node31': 1, 'node26': 1, 'node43': 1, 'node12': 1, 'node35': 1, 'node39': 1, 'node23': 1, 'node08': 1, 'node24': 1, 'node10': 1, 'node09': 1, 'node02': 2, 'node13': 1, 'node07': 1, 'node42': 1, 'node01': 2, 'node03': 2, 'node25': 1, 'node16': 1, 'node11': 1, 'node15': 1, 'node30': 1, 'node32': 1, 'node29': 1, 'node28': 1, 'node33': 1, 'node41': 1, 'node40': 1, 'node48': 1, 'node21': 1, 'node18': 1, 'node04': 2, 'node47': 1, 'node38': 1, 'node05': 1, 'node37': 1, 'node19': 1, 'node44': 1, 'node34': 1, 'node36': 1, 'node22': 1, 'node17': 1, 'node20': 1, 'node14': 1, 'node06': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 50 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node01': 2, 'node26': 1, 'node33': 1, 'node04': 2, 'node44': 1, 'node38': 1, 'node20': 1, 'node03': 2, 'node18': 1, 'node41': 1, 'node02': 2, 'node13': 1, 'node37': 1, 'node06': 1, 'node16': 1, 'node35': 1, 'node14': 1, 'node11': 1, 'node09': 1, 'node39': 1, 'node21': 1, 'node24': 1, 'node15': 1, 'node08': 1, 'node12': 1, 'node36': 1, 'node10': 1, 'node05': 2, 'node07': 1, 'node48': 1, 'node29': 1, 'node42': 1, 'node40': 1, 'node31': 1, 'node19': 1, 'node17': 1, 'node34': 1, 'node25': 1, 'node32': 1, 'node23': 1, 'node27': 1, 'node22': 1, 'node47': 1, 'node28': 1, 'node43': 1, 'node30': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 51 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node48': 1, 'node23': 1, 'node12': 1, 'node34': 1, 'node31': 1, 'node27': 1, 'node22': 1, 'node25': 1, 'node36': 1, 'node47': 1, 'node02': 2, 'node32': 1, 'node04': 2, 'node18': 1, 'node16': 1, 'node42': 1, 'node26': 1, 'node39': 1, 'node09': 1, 'node06': 2, 'node01': 2, 'node11': 1, 'node44': 1, 'node19': 1, 'node28': 1, 'node21': 1, 'node07': 1, 'node40': 1, 'node17': 1, 'node38': 1, 'node10': 1, 'node30': 1, 'node20': 1, 'node41': 1, 'node05': 2, 'node35': 1, 'node13': 1, 'node37': 1, 'node43': 1, 'node33': 1, 'node14': 1, 'node29': 1, 'node24': 1, 'node08': 1, 'node03': 2, 'node15': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 52 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node03': 2, 'node08': 1, 'node30': 1, 'node29': 1, 'node13': 1, 'node32': 1, 'node48': 1, 'node25': 1, 'node18': 1, 'node15': 1, 'node40': 1, 'node44': 1, 'node37': 1, 'node41': 1, 'node21': 1, 'node16': 1, 'node11': 1, 'node19': 1, 'node36': 1, 'node22': 1, 'node20': 1, 'node02': 2, 'node43': 1, 'node10': 1, 'node33': 1, 'node38': 1, 'node34': 1, 'node31': 1, 'node26': 1, 'node09': 1, 'node23': 1, 'node39': 1, 'node24': 1, 'node27': 1, 'node04': 2, 'node05': 2, 'node07': 2, 'node01': 2, 'node14': 1, 'node28': 1, 'node47': 1, 'node42': 1, 'node12': 1, 'node06': 2, 'node35': 1, 'node17': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 53 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node11': 1, 'node28': 1, 'node18': 1, 'node32': 1, 'node14': 1, 'node48': 1, 'node23': 1, 'node31': 1, 'node33': 1, 'node27': 1, 'node16': 1, 'node38': 1, 'node35': 1, 'node41': 1, 'node22': 1, 'node30': 1, 'node05': 2, 'node36': 1, 'node17': 1, 'node26': 1, 'node10': 1, 'node02': 2, 'node13': 1, 'node29': 1, 'node01': 2, 'node34': 1, 'node39': 1, 'node08': 2, 'node03': 2, 'node20': 1, 'node21': 1, 'node04': 2, 'node25': 1, 'node06': 2, 'node42': 1, 'node44': 1, 'node47': 1, 'node07': 2, 'node40': 1, 'node24': 1, 'node19': 1, 'node37': 1, 'node09': 1, 'node43': 1, 'node15': 1, 'node12': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 54 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node38': 1, 'node13': 1, 'node37': 1, 'node12': 1, 'node16': 1, 'node26': 1, 'node14': 1, 'node15': 1, 'node31': 1, 'node29': 1, 'node11': 1, 'node06': 2, 'node48': 1, 'node09': 2, 'node34': 1, 'node28': 1, 'node07': 2, 'node18': 1, 'node40': 1, 'node03': 2, 'node47': 1, 'node04': 2, 'node01': 2, 'node33': 1, 'node19': 1, 'node22': 1, 'node32': 1, 'node24': 1, 'node17': 1, 'node25': 1, 'node43': 1, 'node21': 1, 'node42': 1, 'node39': 1, 'node36': 1, 'node23': 1, 'node20': 1, 'node35': 1, 'node30': 1, 'node08': 2, 'node05': 2, 'node02': 2, 'node27': 1, 'node41': 1, 'node10': 1, 'node44': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 55 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node36': 1, 'node31': 1, 'node18': 1, 'node04': 2, 'node20': 1, 'node39': 1, 'node42': 1, 'node06': 2, 'node15': 1, 'node21': 1, 'node05': 2, 'node44': 1, 'node43': 1, 'node22': 1, 'node17': 1, 'node03': 2, 'node35': 1, 'node12': 1, 'node38': 1, 'node30': 1, 'node19': 1, 'node47': 1, 'node28': 1, 'node24': 1, 'node02': 2, 'node40': 1, 'node37': 1, 'node32': 1, 'node41': 1, 'node01': 2, 'node25': 1, 'node10': 2, 'node09': 2, 'node27': 1, 'node34': 1, 'node13': 1, 'node14': 1, 'node07': 2, 'node29': 1, 'node48': 1, 'node33': 1, 'node16': 1, 'node26': 1, 'node23': 1, 'node08': 2, 'node11': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 56 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node48': 1, 'node19': 1, 'node44': 1, 'node16': 1, 'node09': 2, 'node41': 1, 'node38': 1, 'node08': 2, 'node01': 2, 'node32': 1, 'node13': 1, 'node36': 1, 'node04': 2, 'node23': 1, 'node26': 1, 'node43': 1, 'node12': 1, 'node27': 1, 'node03': 2, 'node18': 1, 'node39': 1, 'node31': 1, 'node30': 1, 'node14': 1, 'node15': 1, 'node29': 1, 'node17': 1, 'node34': 1, 'node37': 1, 'node02': 2, 'node10': 2, 'node42': 1, 'node21': 1, 'node47': 1, 'node05': 2, 'node40': 1, 'node22': 1, 'node25': 1, 'node06': 2, 'node33': 1, 'node11': 2, 'node07': 2, 'node35': 1, 'node20': 1, 'node24': 1, 'node28': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 57 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node41': 1, 'node10': 2, 'node44': 1, 'node40': 1, 'node16': 1, 'node35': 1, 'node48': 1, 'node01': 2, 'node29': 1, 'node09': 2, 'node20': 1, 'node04': 2, 'node22': 1, 'node32': 1, 'node30': 1, 'node34': 1, 'node21': 1, 'node19': 1, 'node15': 1, 'node03': 2, 'node23': 1, 'node13': 1, 'node31': 1, 'node06': 2, 'node42': 1, 'node33': 1, 'node27': 1, 'node11': 2, 'node02': 2, 'node12': 2, 'node05': 2, 'node25': 1, 'node39': 1, 'node36': 1, 'node18': 1, 'node07': 2, 'node38': 1, 'node28': 1, 'node14': 1, 'node24': 1, 'node37': 1, 'node17': 1, 'node08': 2, 'node26': 1, 'node47': 1, 'node43': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 58 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node02': 2, 'node41': 1, 'node26': 1, 'node35': 1, 'node10': 2, 'node29': 1, 'node14': 1, 'node36': 1, 'node21': 1, 'node18': 1, 'node30': 1, 'node42': 1, 'node12': 2, 'node22': 1, 'node25': 1, 'node28': 1, 'node23': 1, 'node47': 1, 'node07': 2, 'node38': 1, 'node44': 1, 'node43': 1, 'node32': 1, 'node04': 2, 'node03': 2, 'node05': 2, 'node37': 1, 'node33': 1, 'node17': 1, 'node09': 2, 'node48': 1, 'node16': 1, 'node31': 1, 'node08': 2, 'node24': 1, 'node11': 2, 'node27': 1, 'node13': 2, 'node06': 2, 'node20': 1, 'node01': 2, 'node39': 1, 'node19': 1, 'node34': 1, 'node40': 1, 'node15': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 59 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node22': 1, 'node41': 1, 'node11': 2, 'node03': 2, 'node38': 1, 'node15': 1, 'node30': 1, 'node48': 1, 'node21': 1, 'node01': 2, 'node35': 1, 'node29': 1, 'node39': 1, 'node08': 2, 'node23': 1, 'node14': 2, 'node24': 1, 'node20': 1, 'node25': 1, 'node07': 2, 'node17': 1, 'node28': 1, 'node33': 1, 'node18': 1, 'node31': 1, 'node34': 1, 'node12': 2, 'node06': 2, 'node16': 1, 'node43': 1, 'node40': 1, 'node36': 1, 'node13': 2, 'node26': 1, 'node37': 1, 'node19': 1, 'node09': 2, 'node27': 1, 'node04': 2, 'node02': 2, 'node47': 1, 'node05': 2, 'node44': 1, 'node42': 1, 'node10': 2, 'node32': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 60 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node20': 1, 'node48': 1, 'node14': 2, 'node40': 1, 'node38': 1, 'node43': 1, 'node30': 1, 'node21': 1, 'node29': 1, 'node23': 1, 'node16': 1, 'node18': 1, 'node33': 1, 'node31': 1, 'node26': 1, 'node04': 2, 'node11': 2, 'node35': 1, 'node10': 2, 'node32': 1, 'node28': 1, 'node01': 2, 'node19': 1, 'node13': 2, 'node44': 1, 'node39': 1, 'node06': 2, 'node37': 1, 'node36': 1, 'node07': 2, 'node02': 2, 'node34': 1, 'node09': 2, 'node17': 1, 'node12': 2, 'node27': 1, 'node15': 2, 'node22': 1, 'node24': 1, 'node25': 1, 'node42': 1, 'node41': 1, 'node03': 2, 'node05': 2, 'node08': 2, 'node47': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 61 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node11': 2, 'node07': 2, 'node18': 1, 'node43': 1, 'node14': 2, 'node41': 1, 'node09': 2, 'node48': 1, 'node34': 1, 'node31': 1, 'node33': 1, 'node01': 2, 'node44': 1, 'node10': 2, 'node39': 1, 'node24': 1, 'node02': 2, 'node17': 1, 'node28': 1, 'node23': 1, 'node37': 1, 'node25': 1, 'node35': 1, 'node13': 2, 'node03': 2, 'node47': 1, 'node05': 2, 'node08': 2, 'node36': 1, 'node06': 2, 'node29': 1, 'node40': 1, 'node20': 1, 'node27': 1, 'node21': 1, 'node32': 1, 'node38': 1, 'node04': 2, 'node22': 1, 'node15': 2, 'node16': 2, 'node19': 1, 'node12': 2, 'node42': 1, 'node26': 1, 'node30': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 62 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node21': 1, 'node17': 2, 'node14': 2, 'node30': 1, 'node39': 1, 'node11': 2, 'node23': 1, 'node02': 2, 'node07': 2, 'node36': 1, 'node22': 1, 'node20': 1, 'node40': 1, 'node37': 1, 'node41': 1, 'node38': 1, 'node01': 2, 'node18': 1, 'node42': 1, 'node19': 1, 'node26': 1, 'node27': 1, 'node09': 2, 'node32': 1, 'node47': 1, 'node43': 1, 'node25': 1, 'node31': 1, 'node04': 2, 'node05': 2, 'node10': 2, 'node28': 1, 'node24': 1, 'node35': 1, 'node48': 1, 'node15': 2, 'node08': 2, 'node12': 2, 'node33': 1, 'node16': 2, 'node06': 2, 'node29': 1, 'node44': 1, 'node34': 1, 'node13': 2, 'node03': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 63 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node27': 1, 'node18': 2, 'node05': 2, 'node35': 1, 'node33': 1, 'node48': 1, 'node41': 1, 'node02': 2, 'node10': 2, 'node23': 1, 'node13': 2, 'node19': 1, 'node39': 1, 'node24': 1, 'node47': 1, 'node31': 1, 'node06': 2, 'node16': 2, 'node17': 2, 'node38': 1, 'node44': 1, 'node37': 1, 'node30': 1, 'node15': 2, 'node09': 2, 'node25': 1, 'node11': 2, 'node42': 1, 'node14': 2, 'node26': 1, 'node34': 1, 'node03': 2, 'node04': 2, 'node08': 2, 'node07': 2, 'node28': 1, 'node01': 2, 'node32': 1, 'node40': 1, 'node43': 1, 'node36': 1, 'node29': 1, 'node12': 2, 'node22': 1, 'node21': 1, 'node20': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 64 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node36': 1, 'node32': 1, 'node12': 2, 'node26': 1, 'node02': 2, 'node43': 1, 'node08': 2, 'node10': 2, 'node24': 1, 'node29': 1, 'node25': 1, 'node09': 2, 'node40': 1, 'node28': 1, 'node14': 2, 'node22': 1, 'node20': 1, 'node35': 1, 'node15': 2, 'node17': 2, 'node30': 1, 'node13': 2, 'node04': 2, 'node21': 1, 'node42': 1, 'node06': 2, 'node11': 2, 'node16': 2, 'node07': 2, 'node34': 1, 'node37': 1, 'node39': 1, 'node31': 1, 'node01': 2, 'node38': 1, 'node03': 2, 'node27': 1, 'node48': 1, 'node05': 2, 'node47': 1, 'node41': 1, 'node18': 2, 'node19': 2, 'node33': 1, 'node23': 1, 'node44': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 65 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node41': 1, 'node10': 2, 'node13': 2, 'node16': 2, 'node34': 1, 'node18': 2, 'node01': 2, 'node20': 2, 'node39': 1, 'node42': 1, 'node06': 2, 'node22': 1, 'node43': 1, 'node05': 2, 'node08': 2, 'node21': 1, 'node36': 1, 'node02': 2, 'node27': 1, 'node48': 1, 'node30': 1, 'node19': 2, 'node40': 1, 'node32': 1, 'node31': 1, 'node38': 1, 'node44': 1, 'node37': 1, 'node04': 2, 'node11': 2, 'node47': 1, 'node23': 1, 'node07': 2, 'node28': 1, 'node03': 2, 'node35': 1, 'node24': 1, 'node33': 1, 'node15': 2, 'node17': 2, 'node25': 1, 'node26': 1, 'node12': 2, 'node09': 2, 'node29': 1, 'node14': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 66 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node07': 2, 'node39': 1, 'node04': 2, 'node14': 2, 'node03': 2, 'node21': 2, 'node01': 2, 'node19': 2, 'node27': 1, 'node16': 2, 'node09': 2, 'node38': 1, 'node32': 1, 'node31': 1, 'node22': 1, 'node20': 2, 'node29': 1, 'node34': 1, 'node13': 2, 'node42': 1, 'node17': 2, 'node47': 1, 'node35': 1, 'node02': 2, 'node37': 1, 'node41': 1, 'node48': 1, 'node08': 2, 'node10': 2, 'node15': 2, 'node33': 1, 'node11': 2, 'node44': 1, 'node40': 1, 'node23': 1, 'node24': 1, 'node28': 1, 'node30': 1, 'node12': 2, 'node25': 1, 'node06': 2, 'node43': 1, 'node36': 1, 'node26': 1, 'node05': 2, 'node18': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 67 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node06': 2, 'node43': 1, 'node09': 2, 'node20': 2, 'node31': 1, 'node11': 2, 'node26': 1, 'node36': 1, 'node22': 2, 'node19': 2, 'node07': 2, 'node38': 1, 'node18': 2, 'node32': 1, 'node27': 1, 'node47': 1, 'node40': 1, 'node05': 2, 'node15': 2, 'node42': 1, 'node48': 1, 'node35': 1, 'node30': 1, 'node41': 1, 'node25': 1, 'node23': 1, 'node16': 2, 'node04': 2, 'node37': 1, 'node29': 1, 'node10': 2, 'node28': 1, 'node03': 2, 'node01': 2, 'node17': 2, 'node39': 1, 'node33': 1, 'node44': 1, 'node14': 2, 'node02': 2, 'node21': 2, 'node34': 1, 'node08': 2, 'node13': 2, 'node12': 2, 'node24': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 68 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node19': 2, 'node26': 1, 'node18': 2, 'node13': 2, 'node29': 1, 'node36': 1, 'node04': 2, 'node20': 2, 'node06': 2, 'node27': 1, 'node01': 2, 'node37': 1, 'node17': 2, 'node14': 2, 'node44': 1, 'node21': 2, 'node22': 2, 'node15': 2, 'node16': 2, 'node42': 1, 'node40': 1, 'node12': 2, 'node03': 2, 'node24': 1, 'node38': 1, 'node47': 1, 'node39': 1, 'node11': 2, 'node33': 1, 'node23': 2, 'node31': 1, 'node30': 1, 'node41': 1, 'node32': 1, 'node09': 2, 'node28': 1, 'node08': 2, 'node10': 2, 'node48': 1, 'node05': 2, 'node25': 1, 'node35': 1, 'node02': 2, 'node34': 1, 'node07': 2, 'node43': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 69 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node17': 2, 'node19': 2, 'node22': 2, 'node40': 1, 'node44': 1, 'node37': 1, 'node03': 2, 'node41': 1, 'node36': 1, 'node27': 1, 'node01': 2, 'node18': 2, 'node35': 1, 'node29': 1, 'node13': 2, 'node23': 2, 'node32': 1, 'node47': 1, 'node43': 1, 'node04': 2, 'node39': 1, 'node42': 1, 'node05': 2, 'node48': 1, 'node02': 2, 'node12': 2, 'node33': 1, 'node14': 2, 'node20': 2, 'node11': 2, 'node31': 1, 'node38': 1, 'node24': 2, 'node15': 2, 'node07': 2, 'node09': 2, 'node21': 2, 'node16': 2, 'node10': 2, 'node28': 1, 'node25': 1, 'node26': 1, 'node06': 2, 'node34': 1, 'node30': 1, 'node08': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 70 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node37': 1, 'node05': 2, 'node13': 2, 'node23': 2, 'node30': 1, 'node15': 2, 'node20': 2, 'node11': 2, 'node34': 1, 'node27': 1, 'node21': 2, 'node01': 2, 'node39': 1, 'node48': 1, 'node41': 1, 'node29': 1, 'node32': 1, 'node19': 2, 'node35': 1, 'node31': 1, 'node43': 1, 'node36': 1, 'node14': 2, 'node38': 1, 'node16': 2, 'node47': 1, 'node12': 2, 'node28': 1, 'node24': 2, 'node09': 2, 'node42': 1, 'node04': 2, 'node06': 2, 'node17': 2, 'node03': 2, 'node07': 2, 'node10': 2, 'node33': 1, 'node18': 2, 'node44': 1, 'node40': 1, 'node02': 2, 'node26': 1, 'node22': 2, 'node08': 2, 'node25': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 71 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node27': 1, 'node37': 1, 'node15': 2, 'node32': 1, 'node25': 2, 'node03': 2, 'node28': 1, 'node16': 2, 'node08': 2, 'node11': 2, 'node43': 1, 'node21': 2, 'node14': 2, 'node47': 1, 'node31': 1, 'node07': 2, 'node19': 2, 'node36': 1, 'node05': 2, 'node33': 1, 'node35': 1, 'node26': 2, 'node18': 2, 'node39': 1, 'node17': 2, 'node40': 1, 'node13': 2, 'node34': 1, 'node02': 2, 'node04': 2, 'node09': 2, 'node20': 2, 'node48': 1, 'node44': 1, 'node41': 1, 'node23': 2, 'node24': 2, 'node12': 2, 'node38': 1, 'node29': 1, 'node22': 2, 'node30': 1, 'node06': 2, 'node10': 2, 'node42': 1, 'node01': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 72 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node07': 2, 'node19': 2, 'node15': 2, 'node29': 1, 'node02': 2, 'node48': 1, 'node44': 1, 'node31': 1, 'node03': 2, 'node20': 2, 'node38': 1, 'node09': 2, 'node40': 1, 'node12': 2, 'node23': 2, 'node27': 2, 'node34': 1, 'node26': 2, 'node06': 2, 'node43': 1, 'node28': 1, 'node17': 2, 'node10': 2, 'node16': 2, 'node37': 1, 'node01': 2, 'node04': 2, 'node32': 1, 'node14': 2, 'node18': 2, 'node39': 1, 'node47': 1, 'node13': 2, 'node24': 2, 'node08': 2, 'node36': 1, 'node22': 2, 'node42': 1, 'node21': 2, 'node30': 1, 'node25': 2, 'node05': 2, 'node35': 1, 'node11': 2, 'node33': 1, 'node41': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 73 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node44': 1, 'node09': 2, 'node20': 2, 'node16': 2, 'node39': 1, 'node31': 1, 'node25': 2, 'node04': 2, 'node35': 1, 'node42': 1, 'node14': 2, 'node03': 2, 'node21': 2, 'node38': 1, 'node32': 1, 'node05': 2, 'node10': 2, 'node29': 1, 'node07': 2, 'node34': 1, 'node48': 1, 'node15': 2, 'node08': 2, 'node06': 2, 'node43': 1, 'node33': 1, 'node47': 1, 'node40': 1, 'node37': 1, 'node30': 1, 'node27': 2, 'node19': 2, 'node02': 2, 'node12': 2, 'node13': 2, 'node18': 2, 'node26': 2, 'node01': 2, 'node41': 1, 'node17': 2, 'node36': 1, 'node24': 2, 'node11': 2, 'node22': 2, 'node23': 2, 'node28': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 74 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node40': 1, 'node19': 2, 'node08': 2, 'node04': 2, 'node27': 2, 'node12': 2, 'node09': 2, 'node20': 2, 'node24': 2, 'node17': 2, 'node25': 2, 'node41': 1, 'node35': 1, 'node34': 1, 'node21': 2, 'node15': 2, 'node11': 2, 'node43': 1, 'node23': 2, 'node28': 2, 'node47': 1, 'node36': 1, 'node03': 2, 'node16': 2, 'node44': 1, 'node30': 1, 'node31': 1, 'node38': 1, 'node07': 2, 'node48': 1, 'node13': 2, 'node32': 1, 'node33': 1, 'node01': 2, 'node05': 2, 'node42': 1, 'node26': 2, 'node22': 2, 'node14': 2, 'node06': 2, 'node10': 2, 'node18': 2, 'node37': 1, 'node02': 2, 'node29': 2, 'node39': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 75 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node32': 1, 'node14': 2, 'node42': 1, 'node37': 1, 'node44': 1, 'node23': 2, 'node21': 2, 'node31': 1, 'node24': 2, 'node25': 2, 'node11': 2, 'node22': 2, 'node08': 2, 'node41': 1, 'node47': 1, 'node01': 2, 'node19': 2, 'node02': 2, 'node03': 2, 'node39': 1, 'node34': 1, 'node35': 1, 'node36': 1, 'node10': 2, 'node05': 2, 'node33': 1, 'node16': 2, 'node07': 2, 'node09': 2, 'node18': 2, 'node26': 2, 'node28': 2, 'node27': 2, 'node13': 2, 'node12': 2, 'node20': 2, 'node06': 2, 'node04': 2, 'node40': 1, 'node30': 2, 'node29': 2, 'node38': 1, 'node15': 2, 'node43': 1, 'node17': 2, 'node48': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 76 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node19': 2, 'node04': 2, 'node22': 2, 'node18': 2, 'node34': 1, 'node31': 2, 'node13': 2, 'node36': 1, 'node39': 1, 'node08': 2, 'node24': 2, 'node01': 2, 'node12': 2, 'node03': 2, 'node20': 2, 'node40': 1, 'node30': 2, 'node05': 2, 'node10': 2, 'node26': 2, 'node27': 2, 'node23': 2, 'node09': 2, 'node07': 2, 'node16': 2, 'node32': 1, 'node29': 2, 'node41': 1, 'node35': 1, 'node38': 1, 'node15': 2, 'node33': 1, 'node42': 1, 'node28': 2, 'node21': 2, 'node37': 1, 'node48': 1, 'node47': 1, 'node11': 2, 'node44': 1, 'node43': 1, 'node17': 2, 'node06': 2, 'node25': 2, 'node14': 2, 'node02': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 77 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node06': 2, 'node15': 2, 'node29': 2, 'node43': 1, 'node31': 2, 'node30': 2, 'node48': 1, 'node25': 2, 'node10': 2, 'node35': 1, 'node36': 1, 'node28': 2, 'node07': 2, 'node11': 2, 'node13': 2, 'node32': 2, 'node04': 2, 'node03': 2, 'node41': 1, 'node12': 2, 'node20': 2, 'node09': 2, 'node47': 1, 'node44': 1, 'node40': 1, 'node14': 2, 'node34': 1, 'node37': 1, 'node01': 2, 'node16': 2, 'node26': 2, 'node33': 1, 'node19': 2, 'node18': 2, 'node17': 2, 'node24': 2, 'node39': 1, 'node38': 1, 'node23': 2, 'node05': 2, 'node02': 2, 'node08': 2, 'node42': 1, 'node21': 2, 'node27': 2, 'node22': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 78 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node07': 2, 'node34': 1, 'node08': 2, 'node02': 2, 'node25': 2, 'node36': 1, 'node04': 2, 'node23': 2, 'node20': 2, 'node42': 1, 'node15': 2, 'node03': 2, 'node17': 2, 'node19': 2, 'node09': 2, 'node14': 2, 'node26': 2, 'node41': 1, 'node27': 2, 'node48': 1, 'node12': 2, 'node40': 1, 'node28': 2, 'node13': 2, 'node38': 1, 'node33': 2, 'node24': 2, 'node01': 2, 'node10': 2, 'node43': 1, 'node18': 2, 'node37': 1, 'node22': 2, 'node29': 2, 'node44': 1, 'node32': 2, 'node31': 2, 'node16': 2, 'node35': 1, 'node21': 2, 'node11': 2, 'node30': 2, 'node47': 1, 'node06': 2, 'node39': 1, 'node05': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 79 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node15': 2, 'node36': 1, 'node31': 2, 'node16': 2, 'node11': 2, 'node13': 2, 'node14': 2, 'node30': 2, 'node28': 2, 'node02': 2, 'node26': 2, 'node20': 2, 'node09': 2, 'node10': 2, 'node39': 1, 'node06': 2, 'node43': 1, 'node23': 2, 'node05': 2, 'node08': 2, 'node41': 1, 'node12': 2, 'node40': 1, 'node24': 2, 'node18': 2, 'node33': 2, 'node44': 1, 'node21': 2, 'node37': 1, 'node35': 1, 'node42': 1, 'node34': 2, 'node04': 2, 'node01': 2, 'node07': 2, 'node25': 2, 'node32': 2, 'node27': 2, 'node17': 2, 'node22': 2, 'node03': 2, 'node47': 1, 'node29': 2, 'node19': 2, 'node38': 1, 'node48': 1}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 80 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node40': 1, 'node43': 1, 'node15': 2, 'node34': 2, 'node47': 1, 'node20': 2, 'node27': 2, 'node13': 2, 'node16': 2, 'node06': 2, 'node23': 2, 'node32': 2, 'node25': 2, 'node33': 2, 'node14': 2, 'node12': 2, 'node02': 2, 'node41': 1, 'node07': 2, 'node26': 2, 'node18': 2, 'node48': 1, 'node42': 1, 'node31': 2, 'node29': 2, 'node30': 2, 'node22': 2, 'node11': 2, 'node08': 2, 'node24': 2, 'node04': 2, 'node37': 1, 'node09': 2, 'node19': 2, 'node36': 1, 'node38': 1, 'node21': 2, 'node44': 1, 'node10': 2, 'node35': 2, 'node05': 2, 'node28': 2, 'node01': 2, 'node39': 1, 'node17': 2, 'node03': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 81 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node19': 2, 'node35': 2, 'node48': 1, 'node13': 2, 'node23': 2, 'node39': 1, 'node07': 2, 'node30': 2, 'node18': 2, 'node32': 2, 'node44': 1, 'node20': 2, 'node15': 2, 'node43': 1, 'node12': 2, 'node31': 2, 'node10': 2, 'node04': 2, 'node11': 2, 'node26': 2, 'node33': 2, 'node22': 2, 'node25': 2, 'node36': 2, 'node21': 2, 'node06': 2, 'node37': 1, 'node42': 1, 'node27': 2, 'node08': 2, 'node40': 1, 'node03': 2, 'node17': 2, 'node16': 2, 'node34': 2, 'node29': 2, 'node09': 2, 'node05': 2, 'node28': 2, 'node02': 2, 'node47': 1, 'node41': 1, 'node38': 1, 'node01': 2, 'node24': 2, 'node14': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 82 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node15': 2, 'node07': 2, 'node23': 2, 'node04': 2, 'node03': 2, 'node02': 2, 'node20': 2, 'node38': 1, 'node17': 2, 'node40': 1, 'node10': 2, 'node12': 2, 'node14': 2, 'node26': 2, 'node42': 1, 'node09': 2, 'node21': 2, 'node06': 2, 'node05': 2, 'node08': 2, 'node39': 1, 'node48': 1, 'node44': 1, 'node32': 2, 'node25': 2, 'node47': 1, 'node16': 2, 'node13': 2, 'node01': 2, 'node35': 2, 'node43': 1, 'node30': 2, 'node36': 2, 'node22': 2, 'node41': 1, 'node27': 2, 'node19': 2, 'node11': 2, 'node28': 2, 'node18': 2, 'node24': 2, 'node29': 2, 'node33': 2, 'node31': 2, 'node37': 2, 'node34': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 83 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node29': 2, 'node38': 2, 'node15': 2, 'node13': 2, 'node19': 2, 'node25': 2, 'node23': 2, 'node34': 2, 'node08': 2, 'node42': 1, 'node20': 2, 'node33': 2, 'node39': 1, 'node02': 2, 'node30': 2, 'node48': 1, 'node24': 2, 'node43': 1, 'node11': 2, 'node36': 2, 'node26': 2, 'node05': 2, 'node10': 2, 'node16': 2, 'node37': 2, 'node07': 2, 'node47': 1, 'node14': 2, 'node17': 2, 'node01': 2, 'node41': 1, 'node22': 2, 'node28': 2, 'node04': 2, 'node44': 1, 'node12': 2, 'node03': 2, 'node31': 2, 'node09': 2, 'node40': 1, 'node32': 2, 'node21': 2, 'node35': 2, 'node27': 2, 'node18': 2, 'node06': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 84 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node37': 2, 'node43': 1, 'node04': 2, 'node19': 2, 'node40': 1, 'node48': 1, 'node10': 2, 'node36': 2, 'node24': 2, 'node25': 2, 'node28': 2, 'node08': 2, 'node18': 2, 'node47': 1, 'node06': 2, 'node33': 2, 'node20': 2, 'node41': 1, 'node39': 2, 'node16': 2, 'node03': 2, 'node27': 2, 'node26': 2, 'node02': 2, 'node07': 2, 'node15': 2, 'node35': 2, 'node38': 2, 'node01': 2, 'node42': 1, 'node29': 2, 'node21': 2, 'node31': 2, 'node44': 1, 'node13': 2, 'node17': 2, 'node23': 2, 'node34': 2, 'node14': 2, 'node32': 2, 'node05': 2, 'node09': 2, 'node11': 2, 'node12': 2, 'node22': 2, 'node30': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 85 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node09': 2, 'node48': 1, 'node01': 2, 'node19': 2, 'node04': 2, 'node47': 1, 'node22': 2, 'node03': 2, 'node05': 2, 'node30': 2, 'node32': 2, 'node40': 2, 'node02': 2, 'node13': 2, 'node27': 2, 'node28': 2, 'node24': 2, 'node31': 2, 'node35': 2, 'node26': 2, 'node36': 2, 'node34': 2, 'node17': 2, 'node43': 1, 'node20': 2, 'node29': 2, 'node41': 1, 'node16': 2, 'node06': 2, 'node33': 2, 'node42': 1, 'node14': 2, 'node37': 2, 'node38': 2, 'node08': 2, 'node10': 2, 'node11': 2, 'node44': 1, 'node12': 2, 'node25': 2, 'node23': 2, 'node18': 2, 'node07': 2, 'node21': 2, 'node39': 2, 'node15': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 86 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node20': 2, 'node01': 2, 'node04': 2, 'node18': 2, 'node28': 2, 'node06': 2, 'node48': 1, 'node40': 2, 'node12': 2, 'node05': 2, 'node39': 2, 'node13': 2, 'node47': 1, 'node07': 2, 'node23': 2, 'node25': 2, 'node44': 1, 'node41': 2, 'node36': 2, 'node31': 2, 'node30': 2, 'node10': 2, 'node42': 1, 'node22': 2, 'node17': 2, 'node02': 2, 'node24': 2, 'node37': 2, 'node27': 2, 'node26': 2, 'node19': 2, 'node15': 2, 'node21': 2, 'node34': 2, 'node32': 2, 'node33': 2, 'node14': 2, 'node43': 1, 'node35': 2, 'node11': 2, 'node09': 2, 'node03': 2, 'node29': 2, 'node16': 2, 'node08': 2, 'node38': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 87 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node31': 2, 'node05': 2, 'node40': 2, 'node21': 2, 'node06': 2, 'node34': 2, 'node30': 2, 'node10': 2, 'node35': 2, 'node39': 2, 'node32': 2, 'node08': 2, 'node09': 2, 'node47': 1, 'node04': 2, 'node36': 2, 'node33': 2, 'node07': 2, 'node23': 2, 'node02': 2, 'node41': 2, 'node11': 2, 'node29': 2, 'node16': 2, 'node18': 2, 'node20': 2, 'node12': 2, 'node43': 1, 'node19': 2, 'node37': 2, 'node38': 2, 'node14': 2, 'node28': 2, 'node13': 2, 'node27': 2, 'node22': 2, 'node15': 2, 'node03': 2, 'node44': 1, 'node48': 1, 'node42': 2, 'node26': 2, 'node01': 2, 'node25': 2, 'node24': 2, 'node17': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 88 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node15': 2, 'node12': 2, 'node04': 2, 'node18': 2, 'node25': 2, 'node44': 1, 'node13': 2, 'node43': 2, 'node33': 2, 'node35': 2, 'node48': 1, 'node19': 2, 'node41': 2, 'node01': 2, 'node20': 2, 'node03': 2, 'node30': 2, 'node11': 2, 'node31': 2, 'node17': 2, 'node32': 2, 'node07': 2, 'node29': 2, 'node37': 2, 'node34': 2, 'node06': 2, 'node28': 2, 'node02': 2, 'node16': 2, 'node42': 2, 'node14': 2, 'node08': 2, 'node22': 2, 'node47': 1, 'node40': 2, 'node38': 2, 'node27': 2, 'node36': 2, 'node09': 2, 'node23': 2, 'node05': 2, 'node10': 2, 'node21': 2, 'node24': 2, 'node39': 2, 'node26': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 89 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node32': 2, 'node29': 2, 'node36': 2, 'node47': 1, 'node05': 2, 'node48': 1, 'node39': 2, 'node31': 2, 'node03': 2, 'node19': 2, 'node14': 2, 'node37': 2, 'node40': 2, 'node02': 2, 'node28': 2, 'node22': 2, 'node09': 2, 'node33': 2, 'node21': 2, 'node20': 2, 'node44': 2, 'node08': 2, 'node17': 2, 'node04': 2, 'node43': 2, 'node34': 2, 'node06': 2, 'node25': 2, 'node11': 2, 'node30': 2, 'node07': 2, 'node41': 2, 'node15': 2, 'node27': 2, 'node23': 2, 'node26': 2, 'node35': 2, 'node16': 2, 'node12': 2, 'node18': 2, 'node10': 2, 'node13': 2, 'node24': 2, 'node42': 2, 'node38': 2, 'node01': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 90 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node08': 2, 'node38': 2, 'node10': 2, 'node05': 2, 'node23': 2, 'node11': 2, 'node03': 2, 'node42': 2, 'node48': 1, 'node07': 2, 'node39': 2, 'node09': 2, 'node14': 2, 'node12': 2, 'node29': 2, 'node21': 2, 'node37': 2, 'node28': 2, 'node43': 2, 'node34': 2, 'node30': 2, 'node47': 2, 'node18': 2, 'node31': 2, 'node20': 2, 'node04': 2, 'node13': 2, 'node16': 2, 'node19': 2, 'node06': 2, 'node02': 2, 'node15': 2, 'node27': 2, 'node40': 2, 'node25': 2, 'node41': 2, 'node36': 2, 'node35': 2, 'node33': 2, 'node26': 2, 'node22': 2, 'node01': 2, 'node44': 2, 'node17': 2, 'node32': 2, 'node24': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 91 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node12': 2, 'node18': 2, 'node14': 2, 'node01': 2, 'node09': 2, 'node06': 2, 'node16': 2, 'node22': 2, 'node15': 2, 'node03': 2, 'node04': 2, 'node43': 2, 'node47': 2, 'node36': 2, 'node19': 2, 'node34': 2, 'node28': 2, 'node23': 2, 'node39': 2, 'node17': 2, 'node11': 2, 'node42': 2, 'node05': 2, 'node44': 2, 'node10': 2, 'node02': 2, 'node35': 2, 'node33': 2, 'node41': 2, 'node07': 2, 'node13': 2, 'node38': 2, 'node30': 2, 'node37': 2, 'node24': 2, 'node08': 2, 'node25': 2, 'node26': 2, 'node48': 2, 'node21': 2, 'node32': 2, 'node20': 2, 'node27': 2, 'node40': 2, 'node31': 2, 'node29': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 92 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node18': 2, 'node01': 3, 'node11': 2, 'node07': 2, 'node14': 2, 'node04': 2, 'node36': 2, 'node27': 2, 'node26': 2, 'node23': 2, 'node05': 2, 'node21': 2, 'node13': 2, 'node38': 2, 'node40': 2, 'node33': 2, 'node29': 2, 'node16': 2, 'node08': 2, 'node19': 2, 'node42': 2, 'node39': 2, 'node48': 2, 'node47': 2, 'node22': 2, 'node03': 2, 'node43': 2, 'node37': 2, 'node35': 2, 'node41': 2, 'node17': 2, 'node25': 2, 'node10': 2, 'node20': 2, 'node32': 2, 'node30': 2, 'node06': 2, 'node24': 2, 'node02': 2, 'node44': 2, 'node09': 2, 'node15': 2, 'node31': 2, 'node34': 2, 'node12': 2, 'node28': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 93 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node18': 2, 'node12': 2, 'node05': 2, 'node29': 2, 'node11': 2, 'node38': 2, 'node01': 3, 'node43': 2, 'node34': 2, 'node41': 2, 'node26': 2, 'node28': 2, 'node13': 2, 'node02': 3, 'node30': 2, 'node23': 2, 'node48': 2, 'node33': 2, 'node20': 2, 'node25': 2, 'node15': 2, 'node35': 2, 'node24': 2, 'node39': 2, 'node21': 2, 'node27': 2, 'node03': 2, 'node10': 2, 'node19': 2, 'node16': 2, 'node31': 2, 'node22': 2, 'node36': 2, 'node32': 2, 'node08': 2, 'node37': 2, 'node06': 2, 'node09': 2, 'node40': 2, 'node14': 2, 'node47': 2, 'node44': 2, 'node17': 2, 'node42': 2, 'node04': 2, 'node07': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 94 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node25': 2, 'node29': 2, 'node41': 2, 'node17': 2, 'node03': 3, 'node14': 2, 'node31': 2, 'node06': 2, 'node44': 2, 'node42': 2, 'node48': 2, 'node35': 2, 'node23': 2, 'node18': 2, 'node39': 2, 'node40': 2, 'node24': 2, 'node34': 2, 'node02': 3, 'node01': 3, 'node28': 2, 'node43': 2, 'node37': 2, 'node20': 2, 'node07': 2, 'node11': 2, 'node32': 2, 'node22': 2, 'node36': 2, 'node13': 2, 'node19': 2, 'node38': 2, 'node15': 2, 'node12': 2, 'node30': 2, 'node09': 2, 'node33': 2, 'node47': 2, 'node08': 2, 'node04': 2, 'node26': 2, 'node21': 2, 'node10': 2, 'node16': 2, 'node05': 2, 'node27': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 95 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node13': 2, 'node14': 2, 'node23': 2, 'node28': 2, 'node41': 2, 'node22': 2, 'node05': 2, 'node19': 2, 'node29': 2, 'node01': 3, 'node04': 3, 'node26': 2, 'node20': 2, 'node18': 2, 'node40': 2, 'node17': 2, 'node43': 2, 'node39': 2, 'node16': 2, 'node15': 2, 'node21': 2, 'node07': 2, 'node44': 2, 'node33': 2, 'node35': 2, 'node36': 2, 'node08': 2, 'node30': 2, 'node47': 2, 'node11': 2, 'node10': 2, 'node37': 2, 'node42': 2, 'node31': 2, 'node48': 2, 'node25': 2, 'node09': 2, 'node38': 2, 'node02': 3, 'node06': 2, 'node34': 2, 'node12': 2, 'node24': 2, 'node32': 2, 'node03': 3, 'node27': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 96 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node28': 2, 'node10': 2, 'node06': 2, 'node18': 2, 'node37': 2, 'node14': 2, 'node24': 2, 'node42': 2, 'node11': 2, 'node12': 2, 'node29': 2, 'node25': 2, 'node32': 2, 'node20': 2, 'node27': 2, 'node35': 2, 'node48': 2, 'node43': 2, 'node15': 2, 'node39': 2, 'node01': 3, 'node40': 2, 'node47': 2, 'node23': 2, 'node07': 2, 'node08': 2, 'node03': 3, 'node16': 2, 'node02': 3, 'node38': 2, 'node13': 2, 'node17': 2, 'node22': 2, 'node36': 2, 'node34': 2, 'node09': 2, 'node05': 3, 'node41': 2, 'node19': 2, 'node30': 2, 'node33': 2, 'node44': 2, 'node31': 2, 'node26': 2, 'node04': 3, 'node21': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 97 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node48': 2, 'node02': 3, 'node34': 2, 'node38': 2, 'node25': 2, 'node07': 2, 'node32': 2, 'node01': 3, 'node33': 2, 'node37': 2, 'node18': 2, 'node39': 2, 'node27': 2, 'node35': 2, 'node28': 2, 'node43': 2, 'node41': 2, 'node06': 3, 'node26': 2, 'node15': 2, 'node05': 3, 'node24': 2, 'node13': 2, 'node36': 2, 'node29': 2, 'node23': 2, 'node21': 2, 'node42': 2, 'node17': 2, 'node08': 2, 'node10': 2, 'node09': 2, 'node44': 2, 'node30': 2, 'node20': 2, 'node11': 2, 'node47': 2, 'node40': 2, 'node12': 2, 'node03': 3, 'node04': 3, 'node31': 2, 'node16': 2, 'node22': 2, 'node14': 2, 'node19': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 98 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node01': 3, 'node05': 3, 'node26': 2, 'node11': 2, 'node04': 3, 'node36': 2, 'node32': 2, 'node02': 3, 'node37': 2, 'node23': 2, 'node24': 2, 'node19': 2, 'node42': 2, 'node29': 2, 'node41': 2, 'node07': 3, 'node17': 2, 'node21': 2, 'node10': 2, 'node48': 2, 'node25': 2, 'node33': 2, 'node34': 2, 'node16': 2, 'node27': 2, 'node18': 2, 'node43': 2, 'node08': 2, 'node28': 2, 'node03': 3, 'node09': 2, 'node47': 2, 'node44': 2, 'node12': 2, 'node38': 2, 'node31': 2, 'node20': 2, 'node39': 2, 'node22': 2, 'node06': 3, 'node15': 2, 'node30': 2, 'node35': 2, 'node13': 2, 'node40': 2, 'node14': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 99 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node34': 2, 'node17': 2, 'node19': 2, 'node01': 3, 'node09': 2, 'node05': 3, 'node26': 2, 'node02': 3, 'node37': 2, 'node11': 2, 'node44': 2, 'node47': 2, 'node21': 2, 'node12': 2, 'node43': 2, 'node36': 2, 'node10': 2, 'node14': 2, 'node39': 2, 'node42': 2, 'node29': 2, 'node22': 2, 'node40': 2, 'node18': 2, 'node30': 2, 'node38': 2, 'node06': 3, 'node16': 2, 'node35': 2, 'node28': 2, 'node20': 2, 'node32': 2, 'node07': 3, 'node08': 3, 'node04': 3, 'node33': 2, 'node03': 3, 'node25': 2, 'node27': 2, 'node15': 2, 'node41': 2, 'node23': 2, 'node31': 2, 'node13': 2, 'node24': 2, 'node48': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 100 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node40': 2, 'node20': 2, 'node30': 2, 'node34': 2, 'node33': 2, 'node13': 2, 'node48': 2, 'node09': 3, 'node31': 2, 'node43': 2, 'node11': 2, 'node07': 3, 'node36': 2, 'node29': 2, 'node28': 2, 'node27': 2, 'node41': 2, 'node32': 2, 'node37': 2, 'node05': 3, 'node21': 2, 'node12': 2, 'node39': 2, 'node19': 2, 'node22': 2, 'node10': 2, 'node18': 2, 'node23': 2, 'node15': 2, 'node44': 2, 'node42': 2, 'node35': 2, 'node38': 2, 'node17': 2, 'node08': 3, 'node24': 2, 'node06': 3, 'node47': 2, 'node04': 3, 'node26': 2, 'node02': 3, 'node14': 2, 'node03': 3, 'node01': 3, 'node16': 2, 'node25': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 101 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node34': 2, 'node02': 3, 'node26': 2, 'node03': 3, 'node43': 2, 'node47': 2, 'node28': 2, 'node09': 3, 'node16': 2, 'node32': 2, 'node31': 2, 'node06': 3, 'node08': 3, 'node11': 2, 'node13': 2, 'node36': 2, 'node42': 2, 'node29': 2, 'node07': 3, 'node14': 2, 'node30': 2, 'node22': 2, 'node27': 2, 'node15': 2, 'node40': 2, 'node38': 2, 'node33': 2, 'node01': 3, 'node04': 3, 'node23': 2, 'node41': 2, 'node19': 2, 'node20': 2, 'node10': 3, 'node39': 2, 'node44': 2, 'node17': 2, 'node21': 2, 'node35': 2, 'node12': 2, 'node37': 2, 'node25': 2, 'node05': 3, 'node24': 2, 'node48': 2, 'node18': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 102 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node27': 2, 'node17': 2, 'node18': 2, 'node20': 2, 'node26': 2, 'node15': 2, 'node40': 2, 'node37': 2, 'node33': 2, 'node35': 2, 'node36': 2, 'node24': 2, 'node47': 2, 'node22': 2, 'node23': 2, 'node28': 2, 'node11': 3, 'node16': 2, 'node02': 3, 'node04': 3, 'node21': 2, 'node25': 2, 'node38': 2, 'node12': 2, 'node43': 2, 'node32': 2, 'node13': 2, 'node48': 2, 'node05': 3, 'node42': 2, 'node41': 2, 'node39': 2, 'node31': 2, 'node03': 3, 'node09': 3, 'node30': 2, 'node14': 2, 'node07': 3, 'node34': 2, 'node44': 2, 'node29': 2, 'node01': 3, 'node08': 3, 'node10': 3, 'node19': 2, 'node06': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 103 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node05': 3, 'node32': 2, 'node36': 2, 'node40': 2, 'node34': 2, 'node30': 2, 'node48': 2, 'node12': 3, 'node17': 2, 'node47': 2, 'node39': 2, 'node09': 3, 'node13': 2, 'node26': 2, 'node29': 2, 'node18': 2, 'node10': 3, 'node03': 3, 'node28': 2, 'node20': 2, 'node15': 2, 'node27': 2, 'node44': 2, 'node43': 2, 'node02': 3, 'node19': 2, 'node07': 3, 'node08': 3, 'node35': 2, 'node23': 2, 'node21': 2, 'node41': 2, 'node06': 3, 'node11': 3, 'node24': 2, 'node38': 2, 'node01': 3, 'node16': 2, 'node37': 2, 'node22': 2, 'node14': 2, 'node42': 2, 'node33': 2, 'node25': 2, 'node31': 2, 'node04': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 104 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node02': 3, 'node35': 2, 'node21': 2, 'node24': 2, 'node27': 2, 'node06': 3, 'node38': 2, 'node19': 2, 'node10': 3, 'node14': 2, 'node03': 3, 'node36': 2, 'node42': 2, 'node26': 2, 'node07': 3, 'node12': 3, 'node47': 2, 'node22': 2, 'node28': 2, 'node16': 2, 'node33': 2, 'node43': 2, 'node25': 2, 'node20': 2, 'node31': 2, 'node48': 2, 'node32': 2, 'node41': 2, 'node08': 3, 'node17': 2, 'node29': 2, 'node15': 2, 'node18': 2, 'node40': 2, 'node39': 2, 'node30': 2, 'node09': 3, 'node34': 2, 'node44': 2, 'node11': 3, 'node05': 3, 'node13': 3, 'node37': 2, 'node23': 2, 'node04': 3, 'node01': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 105 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node04': 3, 'node32': 2, 'node44': 2, 'node14': 3, 'node36': 2, 'node13': 3, 'node15': 2, 'node38': 2, 'node03': 3, 'node33': 2, 'node07': 3, 'node43': 2, 'node18': 2, 'node26': 2, 'node05': 3, 'node40': 2, 'node28': 2, 'node35': 2, 'node23': 2, 'node25': 2, 'node02': 3, 'node17': 2, 'node41': 2, 'node19': 2, 'node47': 2, 'node37': 2, 'node34': 2, 'node42': 2, 'node12': 3, 'node08': 3, 'node48': 2, 'node30': 2, 'node10': 3, 'node22': 2, 'node16': 2, 'node20': 2, 'node09': 3, 'node21': 2, 'node11': 3, 'node24': 2, 'node39': 2, 'node29': 2, 'node06': 3, 'node01': 3, 'node31': 2, 'node27': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 106 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node07': 3, 'node17': 2, 'node44': 2, 'node15': 3, 'node27': 2, 'node36': 2, 'node47': 2, 'node26': 2, 'node09': 3, 'node30': 2, 'node35': 2, 'node29': 2, 'node25': 2, 'node41': 2, 'node43': 2, 'node20': 2, 'node08': 3, 'node12': 3, 'node23': 2, 'node28': 2, 'node10': 3, 'node32': 2, 'node11': 3, 'node02': 3, 'node24': 2, 'node33': 2, 'node06': 3, 'node18': 2, 'node19': 2, 'node04': 3, 'node21': 2, 'node42': 2, 'node48': 2, 'node38': 2, 'node05': 3, 'node34': 2, 'node39': 2, 'node37': 2, 'node13': 3, 'node22': 2, 'node40': 2, 'node31': 2, 'node14': 3, 'node16': 2, 'node01': 3, 'node03': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 107 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node04': 3, 'node37': 2, 'node30': 2, 'node24': 2, 'node09': 3, 'node19': 2, 'node12': 3, 'node15': 3, 'node43': 2, 'node01': 3, 'node33': 2, 'node47': 2, 'node35': 2, 'node18': 2, 'node31': 2, 'node44': 2, 'node40': 2, 'node23': 2, 'node26': 2, 'node05': 3, 'node39': 2, 'node03': 3, 'node02': 3, 'node38': 2, 'node14': 3, 'node27': 2, 'node17': 2, 'node36': 2, 'node07': 3, 'node21': 2, 'node16': 3, 'node06': 3, 'node20': 2, 'node25': 2, 'node48': 2, 'node08': 3, 'node13': 3, 'node29': 2, 'node34': 2, 'node22': 2, 'node28': 2, 'node10': 3, 'node41': 2, 'node42': 2, 'node11': 3, 'node32': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 108 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node41': 2, 'node03': 3, 'node28': 2, 'node26': 2, 'node42': 2, 'node34': 2, 'node39': 2, 'node06': 3, 'node04': 3, 'node48': 2, 'node05': 3, 'node37': 2, 'node09': 3, 'node07': 3, 'node36': 2, 'node47': 2, 'node19': 2, 'node30': 2, 'node10': 3, 'node21': 2, 'node29': 2, 'node38': 2, 'node44': 2, 'node02': 3, 'node13': 3, 'node15': 3, 'node16': 3, 'node20': 2, 'node25': 2, 'node43': 2, 'node27': 2, 'node33': 2, 'node11': 3, 'node08': 3, 'node17': 3, 'node12': 3, 'node22': 2, 'node23': 2, 'node31': 2, 'node01': 3, 'node14': 3, 'node24': 2, 'node32': 2, 'node35': 2, 'node18': 2, 'node40': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 109 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node47': 2, 'node36': 2, 'node27': 2, 'node29': 2, 'node28': 2, 'node03': 3, 'node11': 3, 'node48': 2, 'node13': 3, 'node01': 3, 'node30': 2, 'node38': 2, 'node22': 2, 'node41': 2, 'node24': 2, 'node18': 3, 'node17': 3, 'node04': 3, 'node19': 2, 'node12': 3, 'node20': 2, 'node32': 2, 'node09': 3, 'node14': 3, 'node08': 3, 'node02': 3, 'node16': 3, 'node25': 2, 'node23': 2, 'node07': 3, 'node40': 2, 'node31': 2, 'node39': 2, 'node21': 2, 'node35': 2, 'node15': 3, 'node10': 3, 'node26': 2, 'node37': 2, 'node42': 2, 'node34': 2, 'node33': 2, 'node05': 3, 'node43': 2, 'node06': 3, 'node44': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 110 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node47': 2, 'node12': 3, 'node40': 2, 'node04': 3, 'node07': 3, 'node10': 3, 'node37': 2, 'node33': 2, 'node21': 2, 'node28': 2, 'node11': 3, 'node16': 3, 'node05': 3, 'node08': 3, 'node01': 3, 'node19': 3, 'node41': 2, 'node14': 3, 'node30': 2, 'node48': 2, 'node42': 2, 'node25': 2, 'node02': 3, 'node34': 2, 'node39': 2, 'node23': 2, 'node15': 3, 'node26': 2, 'node32': 2, 'node27': 2, 'node18': 3, 'node13': 3, 'node09': 3, 'node17': 3, 'node03': 3, 'node22': 2, 'node24': 2, 'node20': 2, 'node43': 2, 'node31': 2, 'node44': 2, 'node36': 2, 'node06': 3, 'node38': 2, 'node35': 2, 'node29': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 111 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node18': 3, 'node19': 3, 'node06': 3, 'node12': 3, 'node13': 3, 'node10': 3, 'node23': 2, 'node36': 2, 'node07': 3, 'node03': 3, 'node42': 2, 'node38': 2, 'node08': 3, 'node05': 3, 'node39': 2, 'node37': 2, 'node28': 2, 'node11': 3, 'node15': 3, 'node29': 2, 'node17': 3, 'node34': 2, 'node47': 2, 'node14': 3, 'node40': 2, 'node02': 3, 'node25': 2, 'node24': 2, 'node35': 2, 'node09': 3, 'node31': 2, 'node41': 2, 'node16': 3, 'node21': 2, 'node20': 3, 'node01': 3, 'node48': 2, 'node32': 2, 'node04': 3, 'node30': 2, 'node43': 2, 'node44': 2, 'node27': 2, 'node33': 2, 'node26': 2, 'node22': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 112 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node48': 2, 'node43': 2, 'node36': 2, 'node32': 2, 'node21': 3, 'node05': 3, 'node15': 3, 'node18': 3, 'node14': 3, 'node12': 3, 'node19': 3, 'node10': 3, 'node20': 3, 'node23': 2, 'node25': 2, 'node30': 2, 'node11': 3, 'node06': 3, 'node29': 2, 'node02': 3, 'node34': 2, 'node04': 3, 'node17': 3, 'node47': 2, 'node01': 3, 'node07': 3, 'node16': 3, 'node35': 2, 'node31': 2, 'node37': 2, 'node27': 2, 'node26': 2, 'node03': 3, 'node33': 2, 'node24': 2, 'node22': 2, 'node13': 3, 'node28': 2, 'node41': 2, 'node42': 2, 'node38': 2, 'node39': 2, 'node08': 3, 'node40': 2, 'node44': 2, 'node09': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 113 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node26': 2, 'node14': 3, 'node20': 3, 'node13': 3, 'node22': 3, 'node28': 2, 'node42': 2, 'node07': 3, 'node38': 2, 'node43': 2, 'node12': 3, 'node21': 3, 'node02': 3, 'node33': 2, 'node03': 3, 'node19': 3, 'node06': 3, 'node34': 2, 'node08': 3, 'node01': 3, 'node48': 2, 'node25': 2, 'node15': 3, 'node32': 2, 'node31': 2, 'node11': 3, 'node35': 2, 'node05': 3, 'node39': 2, 'node40': 2, 'node23': 2, 'node10': 3, 'node18': 3, 'node16': 3, 'node30': 2, 'node44': 2, 'node29': 2, 'node37': 2, 'node24': 2, 'node36': 2, 'node17': 3, 'node04': 3, 'node47': 2, 'node41': 2, 'node09': 3, 'node27': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 114 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node10': 3, 'node48': 2, 'node09': 3, 'node33': 2, 'node39': 2, 'node21': 3, 'node02': 3, 'node23': 3, 'node03': 3, 'node36': 2, 'node14': 3, 'node41': 2, 'node26': 2, 'node42': 2, 'node37': 2, 'node35': 2, 'node15': 3, 'node01': 3, 'node22': 3, 'node18': 3, 'node28': 2, 'node08': 3, 'node07': 3, 'node06': 3, 'node16': 3, 'node24': 2, 'node32': 2, 'node31': 2, 'node40': 2, 'node25': 2, 'node17': 3, 'node43': 2, 'node47': 2, 'node19': 3, 'node38': 2, 'node29': 2, 'node34': 2, 'node04': 3, 'node13': 3, 'node44': 2, 'node20': 3, 'node05': 3, 'node30': 2, 'node12': 3, 'node11': 3, 'node27': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 115 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node01': 3, 'node11': 3, 'node12': 3, 'node09': 3, 'node31': 2, 'node07': 3, 'node29': 2, 'node16': 3, 'node30': 2, 'node23': 3, 'node33': 2, 'node15': 3, 'node26': 2, 'node47': 2, 'node27': 2, 'node35': 2, 'node14': 3, 'node24': 3, 'node34': 2, 'node03': 3, 'node18': 3, 'node39': 2, 'node44': 2, 'node41': 2, 'node42': 2, 'node06': 3, 'node43': 2, 'node02': 3, 'node38': 2, 'node32': 2, 'node04': 3, 'node08': 3, 'node48': 2, 'node21': 3, 'node05': 3, 'node20': 3, 'node13': 3, 'node17': 3, 'node36': 2, 'node10': 3, 'node37': 2, 'node19': 3, 'node22': 3, 'node25': 2, 'node28': 2, 'node40': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 116 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node12': 3, 'node25': 3, 'node21': 3, 'node33': 2, 'node48': 2, 'node09': 3, 'node23': 3, 'node28': 2, 'node16': 3, 'node27': 2, 'node22': 3, 'node13': 3, 'node34': 2, 'node24': 3, 'node02': 3, 'node31': 2, 'node35': 2, 'node47': 2, 'node38': 2, 'node26': 2, 'node06': 3, 'node04': 3, 'node01': 3, 'node11': 3, 'node41': 2, 'node08': 3, 'node39': 2, 'node32': 2, 'node36': 2, 'node43': 2, 'node05': 3, 'node10': 3, 'node17': 3, 'node44': 2, 'node42': 2, 'node14': 3, 'node30': 2, 'node19': 3, 'node03': 3, 'node07': 3, 'node29': 2, 'node15': 3, 'node37': 2, 'node20': 3, 'node40': 2, 'node18': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 117 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node27': 2, 'node04': 3, 'node31': 2, 'node10': 3, 'node21': 3, 'node29': 2, 'node16': 3, 'node40': 2, 'node30': 2, 'node18': 3, 'node07': 3, 'node02': 3, 'node17': 3, 'node12': 3, 'node14': 3, 'node48': 2, 'node13': 3, 'node05': 3, 'node47': 2, 'node08': 3, 'node38': 2, 'node33': 2, 'node19': 3, 'node09': 3, 'node37': 2, 'node06': 3, 'node11': 3, 'node20': 3, 'node01': 3, 'node26': 3, 'node35': 2, 'node03': 3, 'node36': 2, 'node44': 2, 'node23': 3, 'node39': 2, 'node25': 3, 'node28': 2, 'node22': 3, 'node24': 3, 'node43': 2, 'node15': 3, 'node41': 2, 'node42': 2, 'node34': 2, 'node32': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 118 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node19': 3, 'node13': 3, 'node20': 3, 'node08': 3, 'node21': 3, 'node18': 3, 'node25': 3, 'node30': 2, 'node43': 2, 'node32': 2, 'node39': 2, 'node02': 3, 'node37': 2, 'node17': 3, 'node15': 3, 'node41': 2, 'node22': 3, 'node24': 3, 'node36': 2, 'node10': 3, 'node40': 2, 'node34': 2, 'node06': 3, 'node26': 3, 'node05': 3, 'node07': 3, 'node28': 2, 'node31': 2, 'node42': 2, 'node01': 3, 'node44': 2, 'node47': 2, 'node14': 3, 'node03': 3, 'node38': 2, 'node04': 3, 'node48': 2, 'node11': 3, 'node35': 2, 'node12': 3, 'node23': 3, 'node09': 3, 'node16': 3, 'node33': 2, 'node29': 2, 'node27': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 119 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node28': 3, 'node07': 3, 'node14': 3, 'node44': 2, 'node18': 3, 'node34': 2, 'node05': 3, 'node29': 2, 'node25': 3, 'node23': 3, 'node15': 3, 'node12': 3, 'node24': 3, 'node16': 3, 'node42': 2, 'node40': 2, 'node43': 2, 'node02': 3, 'node10': 3, 'node27': 3, 'node08': 3, 'node11': 3, 'node03': 3, 'node01': 3, 'node17': 3, 'node31': 2, 'node19': 3, 'node37': 2, 'node48': 2, 'node22': 3, 'node35': 2, 'node33': 2, 'node47': 2, 'node20': 3, 'node38': 2, 'node21': 3, 'node30': 2, 'node39': 2, 'node13': 3, 'node41': 2, 'node04': 3, 'node36': 2, 'node06': 3, 'node32': 2, 'node26': 3, 'node09': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 120 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node11': 3, 'node21': 3, 'node39': 2, 'node05': 3, 'node06': 3, 'node19': 3, 'node35': 2, 'node20': 3, 'node26': 3, 'node37': 2, 'node27': 3, 'node10': 3, 'node32': 2, 'node30': 2, 'node24': 3, 'node44': 2, 'node22': 3, 'node48': 2, 'node28': 3, 'node03': 3, 'node34': 2, 'node25': 3, 'node42': 2, 'node38': 2, 'node13': 3, 'node47': 2, 'node36': 2, 'node33': 2, 'node07': 3, 'node17': 3, 'node41': 2, 'node43': 2, 'node16': 3, 'node12': 3, 'node29': 3, 'node04': 3, 'node08': 3, 'node14': 3, 'node01': 3, 'node18': 3, 'node09': 3, 'node40': 2, 'node31': 2, 'node15': 3, 'node23': 3, 'node02': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 121 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node38': 2, 'node10': 3, 'node13': 3, 'node33': 2, 'node41': 2, 'node09': 3, 'node24': 3, 'node29': 3, 'node23': 3, 'node34': 2, 'node22': 3, 'node36': 2, 'node06': 3, 'node30': 3, 'node44': 2, 'node04': 3, 'node25': 3, 'node05': 3, 'node03': 3, 'node17': 3, 'node19': 3, 'node18': 3, 'node40': 2, 'node47': 2, 'node26': 3, 'node32': 2, 'node07': 3, 'node39': 2, 'node37': 2, 'node28': 3, 'node31': 2, 'node14': 3, 'node21': 3, 'node35': 2, 'node08': 3, 'node02': 3, 'node43': 2, 'node01': 3, 'node42': 2, 'node16': 3, 'node12': 3, 'node48': 2, 'node15': 3, 'node11': 3, 'node20': 3, 'node27': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 122 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node14': 3, 'node10': 3, 'node29': 3, 'node36': 2, 'node07': 3, 'node20': 3, 'node27': 3, 'node37': 2, 'node33': 2, 'node06': 3, 'node09': 3, 'node04': 3, 'node08': 3, 'node47': 2, 'node35': 2, 'node23': 3, 'node24': 3, 'node05': 3, 'node40': 2, 'node17': 3, 'node03': 3, 'node31': 3, 'node48': 2, 'node02': 3, 'node21': 3, 'node26': 3, 'node28': 3, 'node43': 2, 'node11': 3, 'node39': 2, 'node44': 2, 'node32': 2, 'node19': 3, 'node22': 3, 'node41': 2, 'node42': 2, 'node01': 3, 'node18': 3, 'node34': 2, 'node30': 3, 'node38': 2, 'node16': 3, 'node25': 3, 'node13': 3, 'node12': 3, 'node15': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 123 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node32': 3, 'node23': 3, 'node04': 3, 'node36': 2, 'node25': 3, 'node24': 3, 'node33': 2, 'node48': 2, 'node21': 3, 'node38': 2, 'node41': 2, 'node39': 2, 'node15': 3, 'node44': 2, 'node14': 3, 'node29': 3, 'node02': 3, 'node35': 2, 'node01': 3, 'node11': 3, 'node28': 3, 'node16': 3, 'node22': 3, 'node43': 2, 'node27': 3, 'node18': 3, 'node07': 3, 'node31': 3, 'node05': 3, 'node30': 3, 'node19': 3, 'node34': 2, 'node42': 2, 'node47': 2, 'node12': 3, 'node10': 3, 'node03': 3, 'node09': 3, 'node13': 3, 'node20': 3, 'node17': 3, 'node06': 3, 'node40': 2, 'node26': 3, 'node37': 2, 'node08': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 124 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node19': 3, 'node35': 2, 'node30': 3, 'node17': 3, 'node25': 3, 'node41': 2, 'node40': 2, 'node47': 2, 'node02': 3, 'node10': 3, 'node16': 3, 'node24': 3, 'node05': 3, 'node22': 3, 'node03': 3, 'node36': 2, 'node43': 2, 'node27': 3, 'node06': 3, 'node12': 3, 'node14': 3, 'node39': 2, 'node48': 2, 'node34': 2, 'node37': 2, 'node23': 3, 'node15': 3, 'node32': 3, 'node18': 3, 'node26': 3, 'node38': 2, 'node01': 3, 'node07': 3, 'node29': 3, 'node44': 2, 'node11': 3, 'node08': 3, 'node13': 3, 'node33': 3, 'node04': 3, 'node31': 3, 'node09': 3, 'node42': 2, 'node21': 3, 'node20': 3, 'node28': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 125 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node25': 3, 'node02': 3, 'node23': 3, 'node40': 2, 'node20': 3, 'node26': 3, 'node34': 3, 'node05': 3, 'node13': 3, 'node12': 3, 'node33': 3, 'node16': 3, 'node35': 2, 'node28': 3, 'node44': 2, 'node22': 3, 'node03': 3, 'node11': 3, 'node06': 3, 'node29': 3, 'node19': 3, 'node38': 2, 'node10': 3, 'node18': 3, 'node32': 3, 'node39': 2, 'node36': 2, 'node07': 3, 'node15': 3, 'node43': 2, 'node30': 3, 'node48': 2, 'node31': 3, 'node17': 3, 'node21': 3, 'node37': 2, 'node09': 3, 'node41': 2, 'node04': 3, 'node14': 3, 'node27': 3, 'node47': 2, 'node08': 3, 'node42': 2, 'node24': 3, 'node01': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 126 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node09': 3, 'node18': 3, 'node01': 3, 'node20': 3, 'node22': 3, 'node17': 3, 'node24': 3, 'node42': 2, 'node23': 3, 'node13': 3, 'node06': 3, 'node33': 3, 'node11': 3, 'node07': 3, 'node32': 3, 'node21': 3, 'node30': 3, 'node29': 3, 'node10': 3, 'node43': 2, 'node28': 3, 'node47': 2, 'node38': 2, 'node15': 3, 'node26': 3, 'node02': 3, 'node36': 2, 'node27': 3, 'node39': 2, 'node48': 2, 'node25': 3, 'node40': 2, 'node41': 2, 'node44': 2, 'node35': 3, 'node16': 3, 'node04': 3, 'node19': 3, 'node37': 2, 'node14': 3, 'node03': 3, 'node08': 3, 'node12': 3, 'node31': 3, 'node34': 3, 'node05': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 127 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node44': 2, 'node24': 3, 'node47': 2, 'node23': 3, 'node11': 3, 'node29': 3, 'node15': 3, 'node38': 2, 'node19': 3, 'node14': 3, 'node22': 3, 'node34': 3, 'node41': 2, 'node05': 3, 'node33': 3, 'node17': 3, 'node27': 3, 'node04': 3, 'node02': 3, 'node07': 3, 'node10': 3, 'node21': 3, 'node13': 3, 'node42': 2, 'node25': 3, 'node08': 3, 'node39': 2, 'node09': 3, 'node31': 3, 'node48': 2, 'node36': 3, 'node16': 3, 'node12': 3, 'node40': 2, 'node18': 3, 'node35': 3, 'node30': 3, 'node01': 3, 'node43': 2, 'node06': 3, 'node20': 3, 'node32': 3, 'node26': 3, 'node37': 2, 'node03': 3, 'node28': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 128 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node09': 3, 'node39': 2, 'node25': 3, 'node41': 2, 'node19': 3, 'node43': 2, 'node31': 3, 'node35': 3, 'node10': 3, 'node27': 3, 'node23': 3, 'node01': 3, 'node17': 3, 'node12': 3, 'node15': 3, 'node44': 2, 'node33': 3, 'node32': 3, 'node14': 3, 'node11': 3, 'node08': 3, 'node03': 3, 'node16': 3, 'node26': 3, 'node18': 3, 'node42': 2, 'node29': 3, 'node38': 2, 'node30': 3, 'node34': 3, 'node07': 3, 'node02': 3, 'node48': 2, 'node21': 3, 'node24': 3, 'node40': 2, 'node04': 3, 'node20': 3, 'node47': 2, 'node05': 3, 'node36': 3, 'node13': 3, 'node28': 3, 'node22': 3, 'node37': 3, 'node06': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 129 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node07': 3, 'node33': 3, 'node18': 3, 'node29': 3, 'node25': 3, 'node28': 3, 'node26': 3, 'node03': 3, 'node04': 3, 'node41': 2, 'node31': 3, 'node10': 3, 'node27': 3, 'node13': 3, 'node14': 3, 'node40': 2, 'node32': 3, 'node19': 3, 'node15': 3, 'node05': 3, 'node23': 3, 'node36': 3, 'node08': 3, 'node02': 3, 'node24': 3, 'node48': 2, 'node38': 3, 'node09': 3, 'node17': 3, 'node34': 3, 'node30': 3, 'node20': 3, 'node01': 3, 'node06': 3, 'node11': 3, 'node35': 3, 'node16': 3, 'node39': 2, 'node43': 2, 'node44': 2, 'node37': 3, 'node12': 3, 'node22': 3, 'node21': 3, 'node47': 2, 'node42': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 130 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node30': 3, 'node02': 3, 'node05': 3, 'node01': 3, 'node17': 3, 'node26': 3, 'node14': 3, 'node35': 3, 'node31': 3, 'node16': 3, 'node18': 3, 'node11': 3, 'node29': 3, 'node33': 3, 'node03': 3, 'node25': 3, 'node13': 3, 'node15': 3, 'node22': 3, 'node23': 3, 'node09': 3, 'node41': 2, 'node42': 2, 'node12': 3, 'node21': 3, 'node20': 3, 'node27': 3, 'node24': 3, 'node37': 3, 'node06': 3, 'node48': 2, 'node38': 3, 'node44': 2, 'node39': 3, 'node08': 3, 'node19': 3, 'node10': 3, 'node34': 3, 'node47': 2, 'node40': 2, 'node04': 3, 'node36': 3, 'node32': 3, 'node07': 3, 'node28': 3, 'node43': 2}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 131 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node16': 3, 'node13': 3, 'node25': 3, 'node44': 2, 'node19': 3, 'node01': 3, 'node02': 3, 'node14': 3, 'node07': 3, 'node09': 3, 'node05': 3, 'node22': 3, 'node37': 3, 'node03': 3, 'node29': 3, 'node35': 3, 'node27': 3, 'node21': 3, 'node33': 3, 'node41': 2, 'node17': 3, 'node12': 3, 'node10': 3, 'node08': 3, 'node15': 3, 'node40': 3, 'node36': 3, 'node38': 3, 'node34': 3, 'node20': 3, 'node31': 3, 'node23': 3, 'node26': 3, 'node18': 3, 'node48': 2, 'node47': 2, 'node28': 3, 'node11': 3, 'node43': 2, 'node06': 3, 'node32': 3, 'node30': 3, 'node42': 2, 'node04': 3, 'node39': 3, 'node24': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 132 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node05': 3, 'node33': 3, 'node21': 3, 'node22': 3, 'node19': 3, 'node16': 3, 'node02': 3, 'node03': 3, 'node34': 3, 'node35': 3, 'node29': 3, 'node30': 3, 'node38': 3, 'node01': 3, 'node41': 3, 'node36': 3, 'node43': 2, 'node08': 3, 'node37': 3, 'node47': 2, 'node26': 3, 'node28': 3, 'node07': 3, 'node23': 3, 'node32': 3, 'node06': 3, 'node40': 3, 'node31': 3, 'node24': 3, 'node18': 3, 'node42': 2, 'node13': 3, 'node20': 3, 'node17': 3, 'node12': 3, 'node27': 3, 'node04': 3, 'node25': 3, 'node44': 2, 'node48': 2, 'node15': 3, 'node09': 3, 'node39': 3, 'node14': 3, 'node11': 3, 'node10': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 133 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node37': 3, 'node40': 3, 'node29': 3, 'node43': 2, 'node08': 3, 'node16': 3, 'node47': 2, 'node27': 3, 'node42': 3, 'node36': 3, 'node12': 3, 'node02': 3, 'node21': 3, 'node39': 3, 'node10': 3, 'node17': 3, 'node44': 2, 'node04': 3, 'node30': 3, 'node48': 2, 'node35': 3, 'node07': 3, 'node32': 3, 'node25': 3, 'node24': 3, 'node31': 3, 'node28': 3, 'node09': 3, 'node01': 3, 'node22': 3, 'node05': 3, 'node13': 3, 'node03': 3, 'node38': 3, 'node15': 3, 'node14': 3, 'node41': 3, 'node11': 3, 'node33': 3, 'node23': 3, 'node18': 3, 'node19': 3, 'node06': 3, 'node20': 3, 'node34': 3, 'node26': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 134 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node10': 3, 'node15': 3, 'node47': 2, 'node29': 3, 'node04': 3, 'node31': 3, 'node16': 3, 'node02': 3, 'node09': 3, 'node18': 3, 'node36': 3, 'node01': 3, 'node34': 3, 'node32': 3, 'node13': 3, 'node25': 3, 'node28': 3, 'node41': 3, 'node27': 3, 'node24': 3, 'node48': 2, 'node33': 3, 'node20': 3, 'node43': 3, 'node03': 3, 'node21': 3, 'node05': 3, 'node12': 3, 'node42': 3, 'node06': 3, 'node11': 3, 'node22': 3, 'node35': 3, 'node38': 3, 'node08': 3, 'node19': 3, 'node14': 3, 'node44': 2, 'node30': 3, 'node17': 3, 'node40': 3, 'node39': 3, 'node07': 3, 'node37': 3, 'node26': 3, 'node23': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 135 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node19': 3, 'node35': 3, 'node16': 3, 'node34': 3, 'node30': 3, 'node37': 3, 'node26': 3, 'node44': 3, 'node15': 3, 'node01': 3, 'node33': 3, 'node20': 3, 'node25': 3, 'node02': 3, 'node09': 3, 'node14': 3, 'node48': 2, 'node05': 3, 'node42': 3, 'node03': 3, 'node04': 3, 'node24': 3, 'node27': 3, 'node41': 3, 'node06': 3, 'node17': 3, 'node08': 3, 'node47': 2, 'node10': 3, 'node22': 3, 'node40': 3, 'node07': 3, 'node31': 3, 'node21': 3, 'node12': 3, 'node32': 3, 'node36': 3, 'node23': 3, 'node29': 3, 'node39': 3, 'node28': 3, 'node18': 3, 'node11': 3, 'node38': 3, 'node13': 3, 'node43': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 136 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node42': 3, 'node03': 3, 'node30': 3, 'node19': 3, 'node15': 3, 'node13': 3, 'node29': 3, 'node44': 3, 'node34': 3, 'node20': 3, 'node41': 3, 'node05': 3, 'node23': 3, 'node48': 2, 'node25': 3, 'node11': 3, 'node39': 3, 'node07': 3, 'node27': 3, 'node10': 3, 'node26': 3, 'node24': 3, 'node16': 3, 'node47': 3, 'node08': 3, 'node02': 3, 'node28': 3, 'node40': 3, 'node12': 3, 'node37': 3, 'node31': 3, 'node06': 3, 'node36': 3, 'node35': 3, 'node01': 3, 'node43': 3, 'node17': 3, 'node14': 3, 'node32': 3, 'node04': 3, 'node18': 3, 'node33': 3, 'node21': 3, 'node09': 3, 'node22': 3, 'node38': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 137 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node17': 3, 'node41': 3, 'node25': 3, 'node47': 3, 'node18': 3, 'node13': 3, 'node40': 3, 'node33': 3, 'node36': 3, 'node28': 3, 'node27': 3, 'node07': 3, 'node06': 3, 'node22': 3, 'node01': 3, 'node14': 3, 'node24': 3, 'node44': 3, 'node02': 3, 'node39': 3, 'node03': 3, 'node09': 3, 'node30': 3, 'node11': 3, 'node43': 3, 'node32': 3, 'node05': 3, 'node21': 3, 'node31': 3, 'node42': 3, 'node20': 3, 'node10': 3, 'node26': 3, 'node08': 3, 'node29': 3, 'node35': 3, 'node15': 3, 'node48': 3, 'node04': 3, 'node16': 3, 'node23': 3, 'node34': 3, 'node37': 3, 'node12': 3, 'node19': 3, 'node38': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 138 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node42': 3, 'node39': 3, 'node07': 3, 'node26': 3, 'node27': 3, 'node03': 3, 'node43': 3, 'node29': 3, 'node37': 3, 'node41': 3, 'node13': 3, 'node11': 3, 'node31': 3, 'node23': 3, 'node35': 3, 'node17': 3, 'node32': 3, 'node34': 3, 'node40': 3, 'node16': 3, 'node44': 3, 'node19': 3, 'node30': 3, 'node28': 3, 'node48': 3, 'node21': 3, 'node04': 3, 'node02': 3, 'node10': 3, 'node24': 3, 'node12': 3, 'node36': 3, 'node09': 3, 'node25': 3, 'node06': 3, 'node01': 4, 'node08': 3, 'node38': 3, 'node33': 3, 'node20': 3, 'node18': 3, 'node22': 3, 'node05': 3, 'node15': 3, 'node47': 3, 'node14': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 139 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node21': 3, 'node07': 3, 'node39': 3, 'node02': 4, 'node31': 3, 'node24': 3, 'node25': 3, 'node18': 3, 'node17': 3, 'node41': 3, 'node16': 3, 'node30': 3, 'node09': 3, 'node37': 3, 'node19': 3, 'node23': 3, 'node40': 3, 'node11': 3, 'node27': 3, 'node12': 3, 'node03': 3, 'node20': 3, 'node06': 3, 'node10': 3, 'node36': 3, 'node08': 3, 'node13': 3, 'node43': 3, 'node01': 4, 'node34': 3, 'node22': 3, 'node28': 3, 'node38': 3, 'node42': 3, 'node26': 3, 'node44': 3, 'node47': 3, 'node15': 3, 'node29': 3, 'node48': 3, 'node33': 3, 'node32': 3, 'node14': 3, 'node35': 3, 'node04': 3, 'node05': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 140 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node06': 3, 'node40': 3, 'node32': 3, 'node10': 3, 'node42': 3, 'node12': 3, 'node18': 3, 'node43': 3, 'node27': 3, 'node21': 3, 'node09': 3, 'node07': 3, 'node38': 3, 'node33': 3, 'node14': 3, 'node01': 4, 'node36': 3, 'node16': 3, 'node15': 3, 'node08': 3, 'node23': 3, 'node25': 3, 'node13': 3, 'node11': 3, 'node34': 3, 'node03': 4, 'node02': 4, 'node47': 3, 'node35': 3, 'node30': 3, 'node19': 3, 'node39': 3, 'node22': 3, 'node48': 3, 'node29': 3, 'node28': 3, 'node24': 3, 'node31': 3, 'node26': 3, 'node04': 3, 'node44': 3, 'node05': 3, 'node41': 3, 'node17': 3, 'node37': 3, 'node20': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 141 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node47': 3, 'node09': 3, 'node34': 3, 'node44': 3, 'node30': 3, 'node43': 3, 'node10': 3, 'node03': 4, 'node18': 3, 'node40': 3, 'node23': 3, 'node32': 3, 'node33': 3, 'node01': 4, 'node28': 3, 'node21': 3, 'node02': 4, 'node29': 3, 'node37': 3, 'node05': 3, 'node04': 4, 'node38': 3, 'node22': 3, 'node16': 3, 'node24': 3, 'node11': 3, 'node39': 3, 'node36': 3, 'node42': 3, 'node17': 3, 'node13': 3, 'node35': 3, 'node07': 3, 'node27': 3, 'node08': 3, 'node48': 3, 'node12': 3, 'node20': 3, 'node41': 3, 'node26': 3, 'node15': 3, 'node19': 3, 'node14': 3, 'node25': 3, 'node06': 3, 'node31': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 142 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node36': 3, 'node04': 4, 'node43': 3, 'node38': 3, 'node06': 3, 'node34': 3, 'node47': 3, 'node09': 3, 'node08': 3, 'node07': 3, 'node01': 4, 'node22': 3, 'node14': 3, 'node28': 3, 'node37': 3, 'node24': 3, 'node11': 3, 'node41': 3, 'node29': 3, 'node17': 3, 'node40': 3, 'node15': 3, 'node33': 3, 'node31': 3, 'node27': 3, 'node19': 3, 'node16': 3, 'node10': 3, 'node42': 3, 'node12': 3, 'node23': 3, 'node25': 3, 'node30': 3, 'node02': 4, 'node05': 4, 'node44': 3, 'node32': 3, 'node03': 4, 'node21': 3, 'node48': 3, 'node39': 3, 'node26': 3, 'node13': 3, 'node20': 3, 'node18': 3, 'node35': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 143 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node40': 3, 'node33': 3, 'node15': 3, 'node39': 3, 'node09': 3, 'node21': 3, 'node04': 4, 'node31': 3, 'node48': 3, 'node27': 3, 'node29': 3, 'node03': 4, 'node12': 3, 'node25': 3, 'node08': 3, 'node34': 3, 'node05': 4, 'node07': 3, 'node10': 3, 'node28': 3, 'node11': 3, 'node20': 3, 'node16': 3, 'node17': 3, 'node47': 3, 'node36': 3, 'node37': 3, 'node22': 3, 'node06': 4, 'node24': 3, 'node41': 3, 'node30': 3, 'node35': 3, 'node44': 3, 'node32': 3, 'node26': 3, 'node13': 3, 'node18': 3, 'node14': 3, 'node23': 3, 'node19': 3, 'node38': 3, 'node42': 3, 'node02': 4, 'node01': 4, 'node43': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 144 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node33': 3, 'node20': 3, 'node36': 3, 'node39': 3, 'node30': 3, 'node05': 4, 'node21': 3, 'node27': 3, 'node24': 3, 'node34': 3, 'node41': 3, 'node38': 3, 'node04': 4, 'node43': 3, 'node48': 3, 'node17': 3, 'node03': 4, 'node44': 3, 'node12': 3, 'node40': 3, 'node14': 3, 'node32': 3, 'node31': 3, 'node15': 3, 'node10': 3, 'node23': 3, 'node18': 3, 'node16': 3, 'node42': 3, 'node25': 3, 'node37': 3, 'node06': 4, 'node29': 3, 'node13': 3, 'node09': 3, 'node11': 3, 'node08': 3, 'node35': 3, 'node07': 4, 'node26': 3, 'node02': 4, 'node22': 3, 'node28': 3, 'node47': 3, 'node19': 3, 'node01': 4}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 145 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node06': 4, 'node42': 3, 'node14': 3, 'node27': 3, 'node21': 3, 'node17': 3, 'node26': 3, 'node15': 3, 'node13': 3, 'node02': 4, 'node11': 3, 'node24': 3, 'node18': 3, 'node20': 3, 'node33': 3, 'node48': 3, 'node36': 3, 'node35': 3, 'node39': 3, 'node34': 3, 'node40': 3, 'node32': 3, 'node04': 4, 'node07': 4, 'node23': 3, 'node09': 3, 'node25': 3, 'node38': 3, 'node10': 3, 'node08': 4, 'node16': 3, 'node05': 4, 'node43': 3, 'node22': 3, 'node30': 3, 'node01': 4, 'node47': 3, 'node03': 4, 'node44': 3, 'node37': 3, 'node31': 3, 'node29': 3, 'node19': 3, 'node41': 3, 'node28': 3, 'node12': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 146 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node01': 4, 'node07': 4, 'node27': 3, 'node18': 3, 'node29': 3, 'node11': 3, 'node04': 4, 'node28': 3, 'node05': 4, 'node03': 4, 'node26': 3, 'node10': 3, 'node12': 3, 'node02': 4, 'node38': 3, 'node30': 3, 'node39': 3, 'node06': 4, 'node09': 4, 'node34': 3, 'node43': 3, 'node31': 3, 'node44': 3, 'node08': 4, 'node24': 3, 'node32': 3, 'node19': 3, 'node17': 3, 'node20': 3, 'node21': 3, 'node25': 3, 'node48': 3, 'node42': 3, 'node36': 3, 'node15': 3, 'node16': 3, 'node37': 3, 'node22': 3, 'node40': 3, 'node41': 3, 'node14': 3, 'node33': 3, 'node47': 3, 'node23': 3, 'node13': 3, 'node35': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 147 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node32': 3, 'node36': 3, 'node41': 3, 'node24': 3, 'node08': 4, 'node29': 3, 'node38': 3, 'node15': 3, 'node09': 4, 'node01': 4, 'node31': 3, 'node47': 3, 'node16': 3, 'node03': 4, 'node07': 4, 'node14': 3, 'node12': 3, 'node40': 3, 'node21': 3, 'node37': 3, 'node10': 4, 'node43': 3, 'node19': 3, 'node44': 3, 'node33': 3, 'node42': 3, 'node26': 3, 'node06': 4, 'node13': 3, 'node04': 4, 'node02': 4, 'node39': 3, 'node11': 3, 'node23': 3, 'node27': 3, 'node28': 3, 'node17': 3, 'node22': 3, 'node05': 4, 'node35': 3, 'node25': 3, 'node20': 3, 'node30': 3, 'node48': 3, 'node34': 3, 'node18': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 148 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node05': 4, 'node30': 3, 'node24': 3, 'node31': 3, 'node16': 3, 'node03': 4, 'node48': 3, 'node09': 4, 'node29': 3, 'node20': 3, 'node19': 3, 'node41': 3, 'node42': 3, 'node33': 3, 'node44': 3, 'node26': 3, 'node38': 3, 'node02': 4, 'node12': 3, 'node01': 4, 'node27': 3, 'node22': 3, 'node06': 4, 'node47': 3, 'node23': 3, 'node14': 3, 'node15': 3, 'node32': 3, 'node18': 3, 'node21': 3, 'node37': 3, 'node34': 3, 'node36': 3, 'node11': 4, 'node04': 4, 'node13': 3, 'node43': 3, 'node40': 3, 'node28': 3, 'node07': 4, 'node08': 4, 'node10': 4, 'node25': 3, 'node17': 3, 'node39': 3, 'node35': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 149 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node01': 4, 'node08': 4, 'node22': 3, 'node15': 3, 'node28': 3, 'node03': 4, 'node40': 3, 'node21': 3, 'node43': 3, 'node19': 3, 'node42': 3, 'node38': 3, 'node16': 3, 'node37': 3, 'node29': 3, 'node39': 3, 'node02': 4, 'node18': 3, 'node31': 3, 'node07': 4, 'node25': 3, 'node06': 4, 'node05': 4, 'node41': 3, 'node14': 3, 'node26': 3, 'node33': 3, 'node32': 3, 'node27': 3, 'node44': 3, 'node47': 3, 'node17': 3, 'node36': 3, 'node04': 4, 'node48': 3, 'node35': 3, 'node23': 3, 'node10': 4, 'node34': 3, 'node30': 3, 'node09': 4, 'node24': 3, 'node13': 3, 'node20': 3, 'node12': 4, 'node11': 4}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 150 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node48': 3, 'node07': 4, 'node01': 4, 'node40': 3, 'node24': 3, 'node14': 3, 'node37': 3, 'node10': 4, 'node22': 3, 'node05': 4, 'node26': 3, 'node08': 4, 'node25': 3, 'node42': 3, 'node29': 3, 'node17': 3, 'node43': 3, 'node04': 4, 'node35': 3, 'node11': 4, 'node44': 3, 'node38': 3, 'node21': 3, 'node15': 3, 'node20': 3, 'node39': 3, 'node13': 4, 'node02': 4, 'node06': 4, 'node27': 3, 'node34': 3, 'node18': 3, 'node31': 3, 'node47': 3, 'node30': 3, 'node41': 3, 'node36': 3, 'node23': 3, 'node33': 3, 'node19': 3, 'node16': 3, 'node32': 3, 'node12': 4, 'node28': 3, 'node09': 4, 'node03': 4}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 151 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node22': 3, 'node25': 3, 'node41': 3, 'node13': 4, 'node04': 4, 'node31': 3, 'node34': 3, 'node08': 4, 'node44': 3, 'node03': 4, 'node43': 3, 'node10': 4, 'node02': 4, 'node47': 3, 'node29': 3, 'node15': 3, 'node32': 3, 'node01': 4, 'node24': 3, 'node16': 3, 'node23': 3, 'node09': 4, 'node40': 3, 'node07': 4, 'node21': 3, 'node28': 3, 'node33': 3, 'node38': 3, 'node05': 4, 'node19': 3, 'node12': 4, 'node06': 4, 'node42': 3, 'node48': 3, 'node14': 4, 'node37': 3, 'node26': 3, 'node27': 3, 'node20': 3, 'node30': 3, 'node11': 4, 'node18': 3, 'node35': 3, 'node36': 3, 'node17': 3, 'node39': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 152 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node22': 3, 'node42': 3, 'node38': 3, 'node18': 3, 'node27': 3, 'node32': 3, 'node02': 4, 'node24': 3, 'node15': 4, 'node36': 3, 'node21': 3, 'node16': 3, 'node05': 4, 'node01': 4, 'node44': 3, 'node20': 3, 'node40': 3, 'node03': 4, 'node12': 4, 'node11': 4, 'node28': 3, 'node48': 3, 'node06': 4, 'node47': 3, 'node19': 3, 'node37': 3, 'node23': 3, 'node17': 3, 'node34': 3, 'node07': 4, 'node10': 4, 'node30': 3, 'node33': 3, 'node26': 3, 'node09': 4, 'node04': 4, 'node29': 3, 'node39': 3, 'node35': 3, 'node43': 3, 'node31': 3, 'node08': 4, 'node13': 4, 'node14': 4, 'node25': 3, 'node41': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 153 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node14': 4, 'node48': 3, 'node18': 3, 'node22': 3, 'node01': 4, 'node47': 3, 'node04': 4, 'node40': 3, 'node35': 3, 'node44': 3, 'node29': 3, 'node16': 4, 'node31': 3, 'node13': 4, 'node08': 4, 'node34': 3, 'node03': 4, 'node37': 3, 'node26': 3, 'node43': 3, 'node07': 4, 'node41': 3, 'node28': 3, 'node09': 4, 'node42': 3, 'node24': 3, 'node23': 3, 'node25': 3, 'node02': 4, 'node19': 3, 'node30': 3, 'node06': 4, 'node05': 4, 'node38': 3, 'node17': 3, 'node10': 4, 'node33': 3, 'node20': 3, 'node15': 4, 'node39': 3, 'node36': 3, 'node12': 4, 'node32': 3, 'node21': 3, 'node11': 4, 'node27': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 154 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node22': 3, 'node37': 3, 'node40': 3, 'node25': 3, 'node35': 3, 'node03': 4, 'node33': 3, 'node19': 3, 'node39': 3, 'node27': 3, 'node38': 3, 'node18': 3, 'node20': 3, 'node23': 3, 'node11': 4, 'node42': 3, 'node34': 3, 'node30': 3, 'node02': 4, 'node47': 3, 'node15': 4, 'node17': 4, 'node09': 4, 'node04': 4, 'node41': 3, 'node43': 3, 'node07': 4, 'node44': 3, 'node10': 4, 'node08': 4, 'node13': 4, 'node05': 4, 'node26': 3, 'node06': 4, 'node14': 4, 'node48': 3, 'node24': 3, 'node12': 4, 'node29': 3, 'node31': 3, 'node21': 3, 'node32': 3, 'node36': 3, 'node28': 3, 'node01': 4, 'node16': 4}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 155 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node25': 3, 'node01': 4, 'node13': 4, 'node24': 3, 'node21': 3, 'node28': 3, 'node20': 3, 'node11': 4, 'node02': 4, 'node41': 3, 'node06': 4, 'node35': 3, 'node30': 3, 'node33': 3, 'node14': 4, 'node03': 4, 'node43': 3, 'node26': 3, 'node47': 3, 'node38': 3, 'node37': 3, 'node40': 3, 'node22': 3, 'node17': 4, 'node29': 3, 'node32': 3, 'node15': 4, 'node09': 4, 'node10': 4, 'node04': 4, 'node16': 4, 'node42': 3, 'node31': 3, 'node44': 3, 'node23': 3, 'node39': 3, 'node48': 3, 'node27': 3, 'node18': 4, 'node19': 3, 'node07': 4, 'node36': 3, 'node05': 4, 'node34': 3, 'node08': 4, 'node12': 4}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 156 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node19': 4, 'node05': 4, 'node41': 3, 'node18': 4, 'node34': 3, 'node42': 3, 'node24': 3, 'node03': 4, 'node47': 3, 'node38': 3, 'node44': 3, 'node14': 4, 'node20': 3, 'node15': 4, 'node23': 3, 'node25': 3, 'node10': 4, 'node17': 4, 'node11': 4, 'node29': 3, 'node16': 4, 'node32': 3, 'node39': 3, 'node06': 4, 'node07': 4, 'node33': 3, 'node31': 3, 'node09': 4, 'node04': 4, 'node40': 3, 'node28': 3, 'node27': 3, 'node01': 4, 'node12': 4, 'node30': 3, 'node43': 3, 'node08': 4, 'node36': 3, 'node48': 3, 'node22': 3, 'node37': 3, 'node13': 4, 'node21': 3, 'node26': 3, 'node02': 4, 'node35': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 157 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node11': 4, 'node48': 3, 'node31': 3, 'node01': 4, 'node29': 3, 'node16': 4, 'node12': 4, 'node42': 3, 'node41': 3, 'node44': 3, 'node40': 3, 'node43': 3, 'node04': 4, 'node06': 4, 'node03': 4, 'node47': 3, 'node30': 3, 'node38': 3, 'node17': 4, 'node05': 4, 'node02': 4, 'node39': 3, 'node19': 4, 'node07': 4, 'node13': 4, 'node37': 3, 'node24': 3, 'node10': 4, 'node32': 3, 'node18': 4, 'node25': 3, 'node28': 3, 'node08': 4, 'node33': 3, 'node23': 3, 'node14': 4, 'node20': 4, 'node22': 3, 'node27': 3, 'node15': 4, 'node36': 3, 'node35': 3, 'node21': 3, 'node26': 3, 'node34': 3, 'node09': 4}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 158 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node47': 3, 'node02': 4, 'node31': 3, 'node05': 4, 'node40': 3, 'node07': 4, 'node48': 3, 'node30': 3, 'node01': 4, 'node13': 4, 'node42': 3, 'node03': 4, 'node11': 4, 'node06': 4, 'node10': 4, 'node44': 3, 'node14': 4, 'node38': 3, 'node21': 4, 'node39': 3, 'node33': 3, 'node18': 4, 'node15': 4, 'node28': 3, 'node26': 3, 'node09': 4, 'node25': 3, 'node04': 4, 'node16': 4, 'node17': 4, 'node37': 3, 'node41': 3, 'node43': 3, 'node19': 4, 'node12': 4, 'node36': 3, 'node23': 3, 'node24': 3, 'node29': 3, 'node34': 3, 'node27': 3, 'node32': 3, 'node22': 3, 'node20': 4, 'node35': 3, 'node08': 4}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 159 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node09': 4, 'node18': 4, 'node40': 3, 'node12': 4, 'node39': 3, 'node36': 3, 'node03': 4, 'node07': 4, 'node19': 4, 'node16': 4, 'node15': 4, 'node22': 4, 'node38': 3, 'node10': 4, 'node44': 3, 'node25': 3, 'node08': 4, 'node31': 3, 'node14': 4, 'node42': 3, 'node30': 3, 'node24': 3, 'node43': 3, 'node48': 3, 'node47': 3, 'node33': 3, 'node35': 3, 'node28': 3, 'node17': 4, 'node41': 3, 'node05': 4, 'node34': 3, 'node11': 4, 'node20': 4, 'node02': 4, 'node37': 3, 'node13': 4, 'node23': 3, 'node29': 3, 'node27': 3, 'node01': 4, 'node21': 4, 'node26': 3, 'node32': 3, 'node06': 4, 'node04': 4}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 160 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node07': 4, 'node36': 3, 'node29': 3, 'node16': 4, 'node28': 3, 'node34': 3, 'node17': 4, 'node31': 3, 'node09': 4, 'node25': 3, 'node02': 4, 'node37': 3, 'node23': 4, 'node01': 4, 'node44': 3, 'node11': 4, 'node08': 4, 'node03': 4, 'node06': 4, 'node40': 3, 'node47': 3, 'node33': 3, 'node14': 4, 'node15': 4, 'node30': 3, 'node26': 3, 'node20': 4, 'node32': 3, 'node27': 3, 'node22': 4, 'node04': 4, 'node12': 4, 'node13': 4, 'node42': 3, 'node38': 3, 'node19': 4, 'node39': 3, 'node18': 4, 'node41': 3, 'node43': 3, 'node10': 4, 'node05': 4, 'node35': 3, 'node21': 4, 'node48': 3, 'node24': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 161 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node23': 4, 'node31': 3, 'node28': 3, 'node17': 4, 'node09': 4, 'node30': 3, 'node27': 3, 'node08': 4, 'node36': 3, 'node35': 3, 'node44': 3, 'node26': 3, 'node25': 3, 'node48': 3, 'node04': 4, 'node10': 4, 'node07': 4, 'node05': 4, 'node32': 3, 'node16': 4, 'node41': 3, 'node29': 3, 'node47': 3, 'node22': 4, 'node14': 4, 'node01': 4, 'node15': 4, 'node02': 4, 'node38': 3, 'node43': 3, 'node33': 3, 'node40': 3, 'node24': 4, 'node34': 3, 'node13': 4, 'node42': 3, 'node18': 4, 'node20': 4, 'node12': 4, 'node19': 4, 'node06': 4, 'node11': 4, 'node21': 4, 'node39': 3, 'node03': 4, 'node37': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 162 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node22': 4, 'node05': 4, 'node30': 3, 'node07': 4, 'node03': 4, 'node48': 3, 'node15': 4, 'node28': 3, 'node02': 4, 'node23': 4, 'node18': 4, 'node31': 3, 'node47': 3, 'node13': 4, 'node25': 4, 'node38': 3, 'node43': 3, 'node19': 4, 'node29': 3, 'node26': 3, 'node27': 3, 'node14': 4, 'node35': 3, 'node04': 4, 'node12': 4, 'node11': 4, 'node34': 3, 'node41': 3, 'node32': 3, 'node21': 4, 'node44': 3, 'node10': 4, 'node06': 4, 'node01': 4, 'node24': 4, 'node20': 4, 'node42': 3, 'node09': 4, 'node33': 3, 'node08': 4, 'node17': 4, 'node40': 3, 'node16': 4, 'node39': 3, 'node37': 3, 'node36': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 163 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node44': 3, 'node12': 4, 'node03': 4, 'node13': 4, 'node34': 3, 'node19': 4, 'node04': 4, 'node16': 4, 'node23': 4, 'node48': 3, 'node09': 4, 'node27': 3, 'node43': 3, 'node20': 4, 'node40': 3, 'node47': 3, 'node06': 4, 'node36': 3, 'node42': 3, 'node24': 4, 'node14': 4, 'node39': 3, 'node37': 3, 'node38': 3, 'node28': 3, 'node26': 4, 'node22': 4, 'node35': 3, 'node08': 4, 'node10': 4, 'node01': 4, 'node21': 4, 'node25': 4, 'node31': 3, 'node05': 4, 'node07': 4, 'node33': 3, 'node29': 3, 'node02': 4, 'node18': 4, 'node30': 3, 'node17': 4, 'node41': 3, 'node15': 4, 'node32': 3, 'node11': 4}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 164 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node22': 4, 'node38': 3, 'node37': 3, 'node40': 3, 'node14': 4, 'node33': 3, 'node27': 4, 'node23': 4, 'node17': 4, 'node01': 4, 'node11': 4, 'node15': 4, 'node30': 3, 'node41': 3, 'node28': 3, 'node32': 3, 'node12': 4, 'node25': 4, 'node47': 3, 'node39': 3, 'node09': 4, 'node24': 4, 'node34': 3, 'node36': 3, 'node16': 4, 'node48': 3, 'node44': 3, 'node31': 3, 'node07': 4, 'node08': 4, 'node13': 4, 'node04': 4, 'node26': 4, 'node21': 4, 'node10': 4, 'node43': 3, 'node05': 4, 'node03': 4, 'node42': 3, 'node29': 3, 'node02': 4, 'node35': 3, 'node06': 4, 'node18': 4, 'node19': 4, 'node20': 4}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 165 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node10': 4, 'node21': 4, 'node40': 3, 'node05': 4, 'node28': 4, 'node09': 4, 'node14': 4, 'node03': 4, 'node23': 4, 'node36': 3, 'node31': 3, 'node13': 4, 'node32': 3, 'node44': 3, 'node41': 3, 'node35': 3, 'node02': 4, 'node43': 3, 'node33': 3, 'node20': 4, 'node12': 4, 'node06': 4, 'node07': 4, 'node48': 3, 'node37': 3, 'node15': 4, 'node08': 4, 'node34': 3, 'node22': 4, 'node25': 4, 'node11': 4, 'node04': 4, 'node42': 3, 'node24': 4, 'node27': 4, 'node18': 4, 'node29': 3, 'node38': 3, 'node01': 4, 'node17': 4, 'node39': 3, 'node26': 4, 'node47': 3, 'node19': 4, 'node16': 4, 'node30': 3}
+Completed
+Creating hostfile
+Completed
+Starting master
+ssh root@10.1.39.100 '/data/run.py /bin/true /bin/true /data/hostfile 166 02.06.16-22:06:24.776732 per-core'
+Initializing Slaves
+{'node29': 4, 'node44': 3, 'node27': 4, 'node22': 4, 'node07': 4, 'node48': 3, 'node01': 4, 'node31': 3, 'node12': 4, 'node47': 3, 'node11': 4, 'node08': 4, 'node10': 4, 'node35': 3, 'node21': 4, 'node40': 3, 'node26': 4, 'node30': 3, 'node41': 3, 'node28': 4, 'node34': 3, 'node06': 4, 'node42': 3, 'node33': 3, 'node32': 3, 'node36': 3, 'node37': 3, 'node19': 4, 'node38': 3, 'node39': 3, 'node43': 3, 'node25': 4, 'node16': 4, 'node24': 4, 'node0
